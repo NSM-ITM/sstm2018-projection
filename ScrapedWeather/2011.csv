@@ -1,0 +1,365 @@
+2011-01-01,clear,partly cloudy,4,0,5
+2011-01-02,partly cloudy,sleet,6,2,5
+2011-01-03,partly cloudy,clear,12,4,3
+2011-01-04,sleet,sleet,3,-1,4
+2011-01-05,cloudy,partly cloudy,6,0,5
+2011-01-06,partly cloudy,clear,4,-1,5
+2011-01-07,partly cloudy,partly cloudy,6,0,5
+2011-01-08,clear,partly cloudy,7,1,4
+2011-01-09,cloudy,partly cloudy,6,0,5
+2011-01-10,clear,partly cloudy,3,-1,4
+2011-01-11,partly cloudy,partly cloudy,4,-2,5
+2011-01-12,clear,clear,4,-1,4
+2011-01-13,partly cloudy,partly cloudy,6,1,4
+2011-01-14,light rain,light rain,8,0,6
+2011-01-15,clear,clear,8,3,4
+2011-01-16,partly cloudy,partly cloudy,2,-2,5
+2011-01-17,partly cloudy,cloudy,3,-1,4
+2011-01-18,small to medium snow,light snow,2,0,4
+2011-01-19,light snow,heavy snow,4,0,4
+2011-01-20,medium to heavy snow,light snow,2,-1,4
+2011-01-21,partly cloudy,clear,4,-1,4
+2011-01-22,clear,partly cloudy,6,2,4
+2011-01-23,light rain,partly cloudy,5,0,5
+2011-01-24,clear,clear,4,-1,5
+2011-01-25,clear,partly cloudy,5,1,4
+2011-01-26,cloudy,cloudy,7,2,5
+2011-01-27,clear,clear,8,0,4
+2011-01-28,clear,cloudy,11,4,4
+2011-01-29,clear,clear,4,-2,5
+2011-01-30,partly cloudy,clear,4,-3,5
+2011-01-31,clear,clear,19,12,5
+2011-02-01,light rain,light rain,7,4,3
+2011-02-02,light rain,partly cloudy,9,5,4
+2011-02-03,clear,partly cloudy,7,2,3
+2011-02-04,partly cloudy,partly cloudy,9,2,3
+2011-02-05,light rain,rain,8,6,5
+2011-02-06,cloudy,light rain,7,0,4
+2011-02-07,light rain,light rain,7,3,5
+2011-02-08,light snow,light snow,2,-2,4
+2011-02-09,partly cloudy,cloudy,5,2,4
+2011-02-10,clear,partly cloudy,8,1,4
+2011-02-11,partly cloudy,partly cloudy,6,-1,5
+2011-02-12,partly cloudy,cloudy,5,0,5
+2011-02-13,partly cloudy,light rain,9,3,4
+2011-02-14,partly cloudy,light rain,17,12,3
+2011-02-15,clear,clear,6,0,3
+2011-02-16,partly cloudy,partly cloudy,17,6,3
+2011-02-17,light rain,light rain,9,5,5
+2011-02-18,rain,rain,7,0,5
+2011-02-19,cloudy,cloudy,8,3,4
+2011-02-20,partly cloudy,partly cloudy,11,3,4
+2011-02-21,clear,clear,12,5,4
+2011-02-22,clear,partly cloudy,13,7,4
+2011-02-23,clear,clear,16,8,4
+2011-02-24,clear,partly cloudy,18,9,4
+2011-02-25,partly cloudy,partly cloudy,13,8,5
+2011-02-26,light rain,light rain,15,11,4
+2011-02-27,light rain,shower,20,5,5
+2011-02-28,light rain,light rain,7,3,5
+2011-03-01,cloudy,partly cloudy,6,0,5
+2011-03-02,clear,clear,8,2,4
+2011-03-03,cloudy,partly cloudy,9,2,4
+2011-03-04,clear,clear,9,3,4
+2011-03-05,partly cloudy,light rain,13,7,5
+2011-03-06,light rain,cloudy,10,4,5
+2011-03-07,clear,clear,10,2,4
+2011-03-08,clear,partly cloudy,15,5,4
+2011-03-09,partly cloudy,partly cloudy,14,4,5
+2011-03-10,clear,clear,13,6,4
+2011-03-11,clear,partly cloudy,17,9,5
+2011-03-12,cloudy,clear,17,10,5
+2011-03-13,partly cloudy,shower,18,8,5
+2011-03-14,light rain,cloudy,14,4,5
+2011-03-15,cloudy,partly cloudy,9,2,5
+2011-03-16,partly cloudy,clear,12,4,4
+2011-03-17,clear,clear,16,7,5
+2011-03-18,cloudy,cloudy,15,9,5
+2011-03-19,shower,shower,16,12,5
+2011-03-20,shower,light rain,16,6,5
+2011-03-21,rain,light rain,8,5,5
+2011-03-22,light rain,partly cloudy,9,3,5
+2011-03-23,clear,partly cloudy,13,6,4
+2011-03-24,partly cloudy,partly cloudy,16,5,5
+2011-03-25,clear,clear,13,4,4
+2011-03-26,clear,partly cloudy,15,7,4
+2011-03-27,clear,clear,17,8,4
+2011-03-28,clear,cloudy,19,9,4
+2011-03-29,partly cloudy,clear,14,6,5
+2011-03-30,clear,clear,16,7,4
+2011-03-31,clear,clear,19,10,5
+2011-04-01,partly cloudy,partly cloudy,21,11,5
+2011-04-02,cloudy,light rain,16,7,5
+2011-04-03,light rain,cloudy,9,5,5
+2011-04-04,clear,clear,14,6,4
+2011-04-05,clear,clear,16,9,4
+2011-04-06,partly cloudy,light rain,18,12,5
+2011-04-07,light rain,cloudy,15,10,4
+2011-04-08,partly cloudy,partly cloudy,18,8,4
+2011-04-09,partly cloudy,partly cloudy,21,12,4
+2011-04-10,partly cloudy,cloudy,23,12,5
+2011-04-11,partly cloudy,partly cloudy,17,9,4
+2011-04-12,clear,cloudy,19,12,4
+2011-04-13,partly cloudy,partly cloudy,21,15,5
+2011-04-14,partly cloudy,partly cloudy,25,17,4
+2011-04-15,thunder storm,thunder storm,26,13,5
+2011-04-16,partly cloudy,partly cloudy,18,10,5
+2011-04-17,partly cloudy,cloudy,21,13,4
+2011-04-18,clear,clear,19,9,5
+2011-04-19,clear,clear,20,8,5
+2011-04-20,clear,clear,22,13,5
+2011-04-21,cloudy,shower,22,13,5
+2011-04-22,cloudy,partly cloudy,18,10,5
+2011-04-23,clear,partly cloudy,22,12,5
+2011-04-24,partly cloudy,clear,23,14,5
+2011-04-25,clear,clear,27,15,5
+2011-04-26,partly cloudy,thunder storm,31,15,5
+2011-04-27,cloudy,partly cloudy,22,11,5
+2011-04-28,clear,partly cloudy,22,13,5
+2011-04-29,clear,partly cloudy,27,19,6
+2011-04-30,thunder storm,shower,29,17,5
+2011-05-01,partly cloudy,partly cloudy,26,13,4
+2011-05-02,partly cloudy,thunder storm,23,12,4
+2011-05-03,shower,cloudy,18,13,4
+2011-05-04,partly cloudy,partly cloudy,21,14,4
+2011-05-05,partly cloudy,partly cloudy,23,16,5
+2011-05-06,partly cloudy,partly cloudy,28,18,4
+2011-05-07,partly cloudy,partly cloudy,31,20,4
+2011-05-08,partly cloudy,clear,31,22,5
+2011-05-09,partly cloudy,partly cloudy,34,24,5
+2011-05-10,thunder storm,thunder storm,34,19,4
+2011-05-11,thunder storm,partly cloudy,24,16,5
+2011-05-12,cloudy,partly cloudy,25,16,4
+2011-05-13,clear,clear,28,18,4
+2011-05-14,partly cloudy,partly cloudy,28,18,4
+2011-05-15,partly cloudy,partly cloudy,29,19,4
+2011-05-16,partly cloudy,partly cloudy,28,19,4
+2011-05-17,clear,clear,29,20,5
+2011-05-18,partly cloudy,clear,32,20,6
+2011-05-19,clear,clear,33,21,5
+2011-05-20,clear,partly cloudy,34,22,4
+2011-05-21,shower,shower,28,17,5
+2011-05-22,shower,rain,20,16,5
+2011-05-23,partly cloudy,cloudy,20,15,5
+2011-05-24,partly cloudy,partly cloudy,22,16,4
+2011-05-25,partly cloudy,cloudy,23,17,4
+2011-05-26,partly cloudy,partly cloudy,25,18,4
+2011-05-27,partly cloudy,partly cloudy,26,18,4
+2011-05-28,cloudy,partly cloudy,23,17,5
+2011-05-29,clear,clear,26,18,5
+2011-05-30,partly cloudy,partly cloudy,30,21,5
+2011-05-31,cloudy,shower,31,20,4
+2011-06-01,partly cloudy,partly cloudy,29,19,4
+2011-06-02,partly cloudy,partly cloudy,30,22,4
+2011-06-03,partly cloudy,cloudy,30,21,5
+2011-06-04,medium to heavy rain,rain,24,20,5
+2011-06-05,light rain,light rain,23,20,5
+2011-06-06,rain,shower,23,19,4
+2011-06-07,light rain,partly cloudy,26,19,4
+2011-06-08,partly cloudy,clear,33,23,5
+2011-06-09,partly cloudy,thunder storm,35,23,4
+2011-06-10,heavy rain,heavy rain,27,22,4
+2011-06-11,rain,shower,26,21,4
+2011-06-12,shower,cloudy,27,20,4
+2011-06-13,shower,shower,27,21,4
+2011-06-14,thunder storm,heavy rain,24,19,5
+2011-06-15,heavy rain,shower,21,19,5
+2011-06-16,light rain,shower,25,20,4
+2011-06-17,shower,thunder storm,25,21,4
+2011-06-18,heavy rain,heavy rain,23,20,5
+2011-06-19,small to moderate rain,cloudy,23,20,5
+2011-06-20,partly cloudy,shower,26,22,4
+2011-06-21,thunder storm,shower,26,23,5
+2011-06-22,thunder storm,cloudy,30,25,5
+2011-06-23,partly cloudy,partly cloudy,35,24,5
+2011-06-24,thunder storm,thunder storm,34,25,4
+2011-06-25,heavy rain,heavy rain,28,22,7
+2011-06-26,shower,partly cloudy,29,22,7
+2011-06-27,partly cloudy,partly cloudy,32,24,5
+2011-06-28,thunder storm,shower,31,25,5
+2011-06-29,thunder storm,shower,31,27,5
+2011-06-30,thunder storm,thunder storm,32,25,5
+2011-07-01,shower,partly cloudy,31,27,4
+2011-07-02,thunder storm,partly cloudy,35,28,4
+2011-07-03,partly cloudy,partly cloudy,37,29,4
+2011-07-04,thunder storm,thunder storm,35,27,4
+2011-07-05,thunder storm,thunder storm,33,27,4
+2011-07-06,partly cloudy,partly cloudy,36,29,4
+2011-07-07,partly cloudy,partly cloudy,37,27,4
+2011-07-08,thunder storm,shower,33,26,4
+2011-07-09,shower,shower,32,26,4
+2011-07-10,cloudy,shower,32,26,5
+2011-07-11,cloudy,cloudy,32,26,5
+2011-07-12,cloudy,shower,31,26,5
+2011-07-13,cloudy,shower,32,27,5
+2011-07-14,shower,cloudy,32,27,5
+2011-07-15,thunder storm,partly cloudy,32,27,4
+2011-07-16,shower,shower,32,27,5
+2011-07-17,shower,cloudy,33,27,5
+2011-07-18,partly cloudy,partly cloudy,33,26,4
+2011-07-19,shower,shower,32,27,4
+2011-07-20,thunder storm,partly cloudy,34,27,4
+2011-07-21,partly cloudy,partly cloudy,34,28,4
+2011-07-22,thunder storm,partly cloudy,35,27,4
+2011-07-23,partly cloudy,partly cloudy,35,28,4
+2011-07-24,thunder storm,partly cloudy,35,28,4
+2011-07-25,partly cloudy,partly cloudy,36,28,4
+2011-07-26,thunder storm,partly cloudy,37,29,5
+2011-07-27,partly cloudy,partly cloudy,37,29,5
+2011-07-28,partly cloudy,clear,36,28,5
+2011-07-29,clear,clear,36,28,4
+2011-07-30,clear,clear,36,28,4
+2011-07-31,thunder storm,partly cloudy,35,28,4
+2011-08-01,thunder storm,partly cloudy,34,28,4
+2011-08-02,thunder storm,partly cloudy,34,27,4
+2011-08-03,thunder storm,thunder storm,34,27,5
+2011-08-04,thunder storm,cloudy,33,26,4
+2011-08-05,partly cloudy,partly cloudy,32,25,5
+2011-08-06,shower,rainstorm,32,25,9
+2011-08-07,rain,shower,30,26,9
+2011-08-08,shower,partly cloudy,33,27,5
+2011-08-09,thunder storm,partly cloudy,33,27,4
+2011-08-10,partly cloudy,partly cloudy,35,27,4
+2011-08-11,thunder storm,shower,34,26,4
+2011-08-12,thunder storm,shower,32,26,4
+2011-08-13,thunder storm,shower,34,27,5
+2011-08-14,thunder storm,thunder storm,35,27,5
+2011-08-15,thunder storm,partly cloudy,34,27,5
+2011-08-16,thunder storm,partly cloudy,36,27,4
+2011-08-17,thunder storm,rain,34,26,4
+2011-08-18,thunder storm,shower,33,27,4
+2011-08-19,thunder storm,partly cloudy,34,27,4
+2011-08-20,partly cloudy,cloudy,34,27,4
+2011-08-21,thunder storm,thunder storm,31,25,4
+2011-08-22,medium to heavy rain,shower,29,24,4
+2011-08-23,shower,shower,28,24,4
+2011-08-24,shower,shower,24,22,4
+2011-08-25,rain,shower,25,23,4
+2011-08-26,medium to heavy rain,shower,27,25,4
+2011-08-27,thunder storm,cloudy,29,25,4
+2011-08-28,cloudy,partly cloudy,31,26,4
+2011-08-29,partly cloudy,partly cloudy,31,26,5
+2011-08-30,shower,partly cloudy,31,26,5
+2011-08-31,partly cloudy,clear,32,25,5
+2011-09-01,clear,clear,32,24,4
+2011-09-02,clear,clear,31,23,5
+2011-09-03,clear,clear,31,23,4
+2011-09-04,clear,partly cloudy,30,22,5
+2011-09-05,partly cloudy,partly cloudy,29,22,5
+2011-09-06,partly cloudy,partly cloudy,28,23,4
+2011-09-07,partly cloudy,partly cloudy,29,24,4
+2011-09-08,thunder storm,partly cloudy,31,25,4
+2011-09-09,thunder storm,shower,27,23,4
+2011-09-10,shower,light rain,26,22,4
+2011-09-11,cloudy,partly cloudy,27,24,4
+2011-09-12,partly cloudy,partly cloudy,30,24,4
+2011-09-13,partly cloudy,partly cloudy,31,25,4
+2011-09-14,partly cloudy,clear,32,25,4
+2011-09-15,partly cloudy,clear,33,25,4
+2011-09-16,partly cloudy,partly cloudy,32,24,4
+2011-09-17,partly cloudy,shower,29,21,5
+2011-09-18,partly cloudy,partly cloudy,25,20,6
+2011-09-19,partly cloudy,shower,25,18,5
+2011-09-20,cloudy,light rain,22,17,5
+2011-09-21,partly cloudy,partly cloudy,23,15,5
+2011-09-22,partly cloudy,clear,24,16,4
+2011-09-23,clear,clear,26,18,4
+2011-09-24,clear,partly cloudy,27,20,4
+2011-09-25,partly cloudy,cloudy,27,22,4
+2011-09-26,shower,shower,27,23,4
+2011-09-27,cloudy,cloudy,27,23,5
+2011-09-28,cloudy,cloudy,28,24,4
+2011-09-29,rain,rain,30,18,5
+2011-09-30,light rain,cloudy,22,18,5
+2011-10-01,cloudy,light rain,22,18,5
+2011-10-02,light rain,shower,21,17,5
+2011-10-03,cloudy,cloudy,21,17,5
+2011-10-04,partly cloudy,cloudy,22,18,4
+2011-10-05,cloudy,partly cloudy,23,17,4
+2011-10-06,partly cloudy,partly cloudy,24,17,4
+2011-10-07,clear,clear,25,15,4
+2011-10-08,clear,clear,26,17,4
+2011-10-09,partly cloudy,partly cloudy,27,19,4
+2011-10-10,cloudy,cloudy,25,20,5
+2011-10-11,partly cloudy,partly cloudy,25,19,5
+2011-10-12,partly cloudy,cloudy,25,20,4
+2011-10-13,small to moderate rain,rain,23,18,4
+2011-10-14,light rain,partly cloudy,23,16,5
+2011-10-15,partly cloudy,partly cloudy,23,14,5
+2011-10-16,clear,partly cloudy,23,14,4
+2011-10-17,clear,clear,24,16,4
+2011-10-18,clear,clear,22,15,4
+2011-10-19,partly cloudy,partly cloudy,23,15,4
+2011-10-20,cloudy,light rain,23,18,4
+2011-10-21,light rain,partly cloudy,23,16,4
+2011-10-22,clear,clear,23,17,4
+2011-10-23,partly cloudy,shower,23,17,4
+2011-10-24,rain,light rain,20,15,5
+2011-10-25,partly cloudy,partly cloudy,19,13,5
+2011-10-26,partly cloudy,cloudy,19,15,4
+2011-10-27,partly cloudy,cloudy,20,16,4
+2011-10-28,cloudy,light rain,20,17,4
+2011-10-29,light rain,light rain,19,16,4
+2011-10-30,partly cloudy,partly cloudy,21,15,4
+2011-10-31,partly cloudy,partly cloudy,21,17,4
+2011-11-01,partly cloudy,cloudy,23,19,4
+2011-11-02,shower,shower,24,18,5
+2011-11-03,cloudy,shower,23,20,4
+2011-11-04,shower,shower,24,20,4
+2011-11-05,shower,light rain,23,18,4
+2011-11-06,light rain,cloudy,21,17,5
+2011-11-07,cloudy,light rain,20,16,4
+2011-11-08,light rain,light rain,19,15,5
+2011-11-09,light rain,light rain,18,14,4
+2011-11-10,light rain,partly cloudy,16,9,5
+2011-11-11,partly cloudy,partly cloudy,18,9,4
+2011-11-12,partly cloudy,clear,20,11,4
+2011-11-13,clear,partly cloudy,20,12,3
+2011-11-14,partly cloudy,partly cloudy,18,12,4
+2011-11-15,partly cloudy,partly cloudy,20,14,4
+2011-11-16,partly cloudy,light rain,20,19,5
+2011-11-17,rain,shower,23,19,5
+2011-11-18,shower,shower,25,14,4
+2011-11-19,light rain,cloudy,17,10,5
+2011-11-20,partly cloudy,clear,15,8,5
+2011-11-21,clear,partly cloudy,16,9,4
+2011-11-22,partly cloudy,partly cloudy,18,10,5
+2011-11-23,clear,clear,15,8,5
+2011-11-24,clear,clear,14,8,4
+2011-11-25,partly cloudy,partly cloudy,18,11,4
+2011-11-26,partly cloudy,partly cloudy,20,15,5
+2011-11-27,partly cloudy,clear,21,15,4
+2011-11-28,partly cloudy,partly cloudy,22,16,4
+2011-11-29,partly cloudy,shower,22,11,4
+2011-11-30,light rain,light rain,17,8,6
+2011-12-01,cloudy,cloudy,11,4,6
+2011-12-02,partly cloudy,clear,10,2,5
+2011-12-03,clear,clear,10,4,5
+2011-12-04,clear,partly cloudy,13,9,3
+2011-12-05,partly cloudy,light rain,15,13,4
+2011-12-06,light rain,light rain,16,11,4
+2011-12-07,small to moderate rain,light rain,14,6,5
+2011-12-08,light rain,cloudy,10,3,6
+2011-12-09,partly cloudy,clear,7,-1,5
+2011-12-10,clear,clear,5,-2,5
+2011-12-11,clear,clear,8,2,4
+2011-12-12,partly cloudy,partly cloudy,10,5,4
+2011-12-13,clear,clear,12,3,4
+2011-12-14,clear,partly cloudy,13,5,5
+2011-12-15,cloudy,partly cloudy,8,2,5
+2011-12-16,clear,clear,6,0,5
+2011-12-17,partly cloudy,clear,7,-1,4
+2011-12-18,partly cloudy,partly cloudy,9,3,4
+2011-12-19,clear,partly cloudy,11,6,4
+2011-12-20,light rain,light rain,12,7,4
+2011-12-21,cloudy,cloudy,11,3,5
+2011-12-22,partly cloudy,partly cloudy,6,1,5
+2011-12-23,clear,clear,7,-1,4
+2011-12-24,clear,clear,7,-1,5
+2011-12-25,clear,clear,8,0,4
+2011-12-26,clear,partly cloudy,9,4,4
+2011-12-27,cloudy,cloudy,11,8,4
+2011-12-28,cloudy,cloudy,12,8,4
+2011-12-29,rain,light snow,7,-3,5
+2011-12-30,partly cloudy,clear,10,3,4
+2011-12-31,partly cloudy,partly cloudy,9,3,4

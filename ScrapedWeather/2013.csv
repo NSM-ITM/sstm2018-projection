@@ -1,0 +1,365 @@
+2013-01-01,clear,clear,8,1,4
+2013-01-02,partly cloudy,cloudy,7,0,5
+2013-01-03,cloudy,cloudy,3,-2,5
+2013-01-04,sleet,sleet,3,-1,4
+2013-01-05,cloudy,sleet,5,1,4
+2013-01-06,sleet,sleet,5,1,4
+2013-01-07,cloudy,cloudy,5,1,4
+2013-01-08,partly cloudy,cloudy,6,1,5
+2013-01-09,partly cloudy,clear,7,-1,5
+2013-01-10,clear,clear,6,-1,4
+2013-01-11,partly cloudy,cloudy,9,1,4
+2013-01-12,partly cloudy,rain,10,4,4
+2013-01-13,small to moderate rain,partly cloudy,7,3,5
+2013-01-14,clear,clear,10,2,4
+2013-01-15,partly cloudy,clear,9,2,3
+2013-01-16,partly cloudy,partly cloudy,8,1,5
+2013-01-17,partly cloudy,partly cloudy,5,-2,5
+2013-01-18,clear,clear,7,-1,4
+2013-01-19,clear,partly cloudy,10,4,5
+2013-01-20,cloudy,light rain,13,8,4
+2013-01-21,light rain,light rain,10,4,5
+2013-01-22,cloudy,partly cloudy,6,1,4
+2013-01-23,partly cloudy,partly cloudy,9,1,4
+2013-01-24,partly cloudy,partly cloudy,11,-1,5
+2013-01-25,clear,clear,9,-1,4
+2013-01-26,partly cloudy,partly cloudy,11,0,4
+2013-01-27,clear,clear,8,0,4
+2013-01-28,clear,cloudy,11,4,4
+2013-01-29,cloudy,clear,15,4,4
+2013-01-30,clear,partly cloudy,15,6,4
+2013-01-31,partly cloudy,light rain,17,10,5
+2013-02-01,light rain,light rain,15,7,5
+2013-02-02,light rain,partly cloudy,9,5,4
+2013-02-03,light rain,light rain,13,8,4
+2013-02-04,light rain,rain,12,5,5
+2013-02-05,rain,cloudy,9,4,5
+2013-02-06,cloudy,light rain,7,0,4
+2013-02-07,sleet,light snow,4,0,5
+2013-02-08,light snow,light snow,2,-2,4
+2013-02-09,partly cloudy,clear,4,-2,4
+2013-02-10,clear,partly cloudy,8,1,4
+2013-02-11,light rain,light rain,8,3,5
+2013-02-12,light rain,partly cloudy,6,1,5
+2013-02-13,partly cloudy,light rain,9,3,4
+2013-02-14,light rain,light rain,9,4,4
+2013-02-15,partly cloudy,partly cloudy,8,2,5
+2013-02-16,clear,cloudy,10,5,5
+2013-02-17,light rain,light rain,12,4,4
+2013-02-18,rain,rain,7,0,5
+2013-02-19,light snow,partly cloudy,3,0,5
+2013-02-20,partly cloudy,partly cloudy,8,2,4
+2013-02-21,partly cloudy,light rain,10,5,4
+2013-02-22,partly cloudy,partly cloudy,12,4,4
+2013-02-23,clear,clear,12,3,4
+2013-02-24,partly cloudy,cloudy,14,7,5
+2013-02-25,light rain,rain,16,9,4
+2013-02-26,light rain,cloudy,14,7,4
+2013-02-27,partly cloudy,partly cloudy,13,7,4
+2013-02-28,partly cloudy,small to moderate rain,17,4,5
+2013-03-01,small to moderate rain,cloudy,8,3,6
+2013-03-02,partly cloudy,partly cloudy,7,0,5
+2013-03-03,clear,clear,10,2,4
+2013-03-04,clear,clear,17,5,4
+2013-03-05,clear,clear,17,9,4
+2013-03-06,clear,partly cloudy,21,11,5
+2013-03-07,partly cloudy,clear,22,11,4
+2013-03-08,clear,clear,26,15,4
+2013-03-09,partly cloudy,light rain,28,8,5
+2013-03-10,cloudy,light rain,11,6,5
+2013-03-11,light rain,partly cloudy,11,8,4
+2013-03-12,clear,rain,21,6,5
+2013-03-13,light rain,cloudy,8,4,6
+2013-03-14,partly cloudy,clear,10,3,4
+2013-03-15,clear,clear,15,7,4
+2013-03-16,light rain,small to moderate rain,17,12,4
+2013-03-17,small to moderate rain,medium to heavy rain,19,12,5
+2013-03-18,partly cloudy,clear,21,11,4
+2013-03-19,small to moderate rain,small to moderate rain,21,6,5
+2013-03-20,cloudy,partly cloudy,13,4,5
+2013-03-21,clear,small to moderate rain,12,8,5
+2013-03-22,light rain,light rain,19,9,5
+2013-03-23,small to moderate rain,light rain,11,7,4
+2013-03-24,light rain,cloudy,13,5,5
+2013-03-25,clear,light rain,11,6,5
+2013-03-26,light rain,cloudy,11,6,4
+2013-03-27,partly cloudy,partly cloudy,16,8,4
+2013-03-28,clear,cloudy,18,8,4
+2013-03-29,cloudy,partly cloudy,13,8,5
+2013-03-30,partly cloudy,partly cloudy,16,9,4
+2013-03-31,partly cloudy,partly cloudy,15,8,4
+2013-04-01,cloudy,cloudy,17,8,5
+2013-04-02,clear,clear,16,6,5
+2013-04-03,partly cloudy,shower,17,10,4
+2013-04-04,cloudy,cloudy,18,13,5
+2013-04-05,small to moderate rain,light rain,17,7,5
+2013-04-06,cloudy,clear,12,4,6
+2013-04-07,clear,clear,16,7,5
+2013-04-08,partly cloudy,partly cloudy,20,10,5
+2013-04-09,partly cloudy,partly cloudy,18,8,5
+2013-04-10,clear,clear,18,9,4
+2013-04-11,clear,clear,19,10,4
+2013-04-12,clear,clear,22,11,4
+2013-04-13,clear,partly cloudy,26,14,5
+2013-04-14,clear,clear,26,13,4
+2013-04-15,clear,partly cloudy,29,18,5
+2013-04-16,cloudy,cloudy,26,17,5
+2013-04-17,partly cloudy,partly cloudy,24,13,4
+2013-04-18,cloudy,partly cloudy,21,10,5
+2013-04-19,cloudy,small to moderate rain,15,10,5
+2013-04-20,light rain,cloudy,12,7,5
+2013-04-21,clear,clear,15,7,4
+2013-04-22,shower,medium to heavy rain,18,13,5
+2013-04-23,light rain,cloudy,19,14,4
+2013-04-24,partly cloudy,partly cloudy,21,12,4
+2013-04-25,partly cloudy,clear,26,12,4
+2013-04-26,clear,clear,25,13,4
+2013-04-27,clear,clear,26,16,5
+2013-04-28,partly cloudy,partly cloudy,26,18,5
+2013-04-29,light rain,rain,27,14,5
+2013-04-30,light rain,partly cloudy,17,11,5
+2013-05-01,clear,clear,23,11,4
+2013-05-02,partly cloudy,clear,23,14,4
+2013-05-03,clear,clear,24,14,4
+2013-05-04,clear,partly cloudy,25,15,4
+2013-05-05,partly cloudy,partly cloudy,24,16,4
+2013-05-06,light rain,light rain,22,16,4
+2013-05-07,cloudy,light rain,22,17,4
+2013-05-08,small to moderate rain,light rain,20,18,4
+2013-05-09,rain,light rain,22,19,4
+2013-05-10,light rain,cloudy,25,17,4
+2013-05-11,partly cloudy,clear,29,19,4
+2013-05-12,clear,clear,30,19,4
+2013-05-13,clear,clear,30,20,4
+2013-05-14,partly cloudy,cloudy,29,21,4
+2013-05-15,light rain,heavy rain,25,19,4
+2013-05-16,rain,light rain,21,19,5
+2013-05-17,small to moderate rain,light rain,22,19,5
+2013-05-18,small to moderate rain,cloudy,22,19,4
+2013-05-19,cloudy,partly cloudy,27,20,4
+2013-05-20,partly cloudy,partly cloudy,29,20,4
+2013-05-21,clear,partly cloudy,30,19,4
+2013-05-22,partly cloudy,partly cloudy,29,21,4
+2013-05-23,light rain,cloudy,26,21,4
+2013-05-24,partly cloudy,partly cloudy,27,21,4
+2013-05-25,partly cloudy,cloudy,27,22,5
+2013-05-26,small to moderate rain,heavy rain,25,21,6
+2013-05-27,light rain,cloudy,27,21,5
+2013-05-28,partly cloudy,clear,29,22,4
+2013-05-29,shower,small to moderate rain,33,20,4
+2013-05-30,small to moderate rain,light rain,21,18,5
+2013-05-31,light rain,light rain,23,19,4
+2013-06-01,light rain,light rain,23,19,4
+2013-06-02,light rain,partly cloudy,24,17,4
+2013-06-03,clear,clear,29,18,4
+2013-06-04,partly cloudy,partly cloudy,28,21,4
+2013-06-05,cloudy,cloudy,27,22,5
+2013-06-06,partly cloudy,light rain,28,21,5
+2013-06-07,rainstorm,heavy rain,23,20,6
+2013-06-08,light rain,light rain,24,20,5
+2013-06-09,light rain,light rain,22,20,4
+2013-06-10,cloudy,cloudy,24,20,4
+2013-06-11,light rain,light rain,24,20,4
+2013-06-12,light rain,cloudy,24,20,4
+2013-06-13,cloudy,light rain,24,20,4
+2013-06-14,light rain,light rain,23,21,4
+2013-06-15,light rain,cloudy,28,23,4
+2013-06-16,light rain,cloudy,29,25,4
+2013-06-17,light rain,partly cloudy,34,26,4
+2013-06-18,small to moderate rain,cloudy,35,26,3
+2013-06-19,rain,cloudy,33,25,4
+2013-06-20,cloudy,cloudy,29,23,4
+2013-06-21,partly cloudy,partly cloudy,30,23,4
+2013-06-22,partly cloudy,light rain,30,25,4
+2013-06-23,heavy rain,rain,28,24,4
+2013-06-24,medium to heavy rain,light rain,29,24,4
+2013-06-25,heavy rain,rain,29,23,4
+2013-06-26,cloudy,medium to heavy rain,27,22,4
+2013-06-27,heavy rain,shower,24,21,4
+2013-06-28,light rain,light rain,26,22,4
+2013-06-29,light rain,cloudy,27,23,4
+2013-06-30,light rain,partly cloudy,30,26,4
+2013-07-01,partly cloudy,partly cloudy,36,28,4
+2013-07-02,clear,clear,38,28,5
+2013-07-03,clear,partly cloudy,38,29,5
+2013-07-04,partly cloudy,partly cloudy,37,28,5
+2013-07-05,thunder storm,heavy rain,36,26,5
+2013-07-06,thunder storm,light rain,31,26,4
+2013-07-07,partly cloudy,partly cloudy,35,28,5
+2013-07-08,partly cloudy,partly cloudy,36,28,5
+2013-07-09,clear,clear,37,28,4
+2013-07-10,clear,clear,38,28,4
+2013-07-11,clear,clear,38,27,4
+2013-07-12,clear,partly cloudy,35,27,5
+2013-07-13,shower,shower,33,27,5
+2013-07-14,partly cloudy,clear,35,27,6
+2013-07-15,partly cloudy,partly cloudy,36,28,5
+2013-07-16,clear,clear,36,28,5
+2013-07-17,clear,clear,37,27,4
+2013-07-18,clear,clear,35,28,5
+2013-07-19,partly cloudy,clear,35,28,5
+2013-07-20,partly cloudy,partly cloudy,35,28,4
+2013-07-21,thunder storm,partly cloudy,34,28,4
+2013-07-22,partly cloudy,clear,36,28,4
+2013-07-23,clear,clear,38,29,4
+2013-07-24,clear,clear,39,29,4
+2013-07-25,partly cloudy,partly cloudy,39,30,4
+2013-07-26,partly cloudy,partly cloudy,39,30,4
+2013-07-27,partly cloudy,partly cloudy,39,29,4
+2013-07-28,thunder storm,partly cloudy,38,30,4
+2013-07-29,partly cloudy,partly cloudy,39,31,4
+2013-07-30,partly cloudy,partly cloudy,39,30,4
+2013-07-31,thunder storm,partly cloudy,38,29,4
+2013-08-01,clear,partly cloudy,37,29,5
+2013-08-02,thunder storm,partly cloudy,35,28,4
+2013-08-03,thunder storm,partly cloudy,36,28,4
+2013-08-04,partly cloudy,clear,37,30,4
+2013-08-05,clear,clear,40,31,4
+2013-08-06,clear,clear,40,31,4
+2013-08-07,partly cloudy,clear,40,31,4
+2013-08-08,clear,clear,40,30,4
+2013-08-09,partly cloudy,clear,40,29,4
+2013-08-10,clear,clear,38,28,4
+2013-08-11,clear,clear,37,29,5
+2013-08-12,clear,clear,37,28,5
+2013-08-13,clear,clear,36,29,5
+2013-08-14,clear,clear,36,28,5
+2013-08-15,clear,partly cloudy,35,28,5
+2013-08-16,partly cloudy,partly cloudy,34,28,5
+2013-08-17,clear,partly cloudy,35,28,5
+2013-08-18,partly cloudy,shower,34,27,5
+2013-08-19,shower,shower,32,28,5
+2013-08-20,shower,partly cloudy,34,28,4
+2013-08-21,light rain,light rain,32,28,5
+2013-08-22,rain,shower,32,28,6
+2013-08-23,partly cloudy,partly cloudy,34,28,5
+2013-08-24,partly cloudy,partly cloudy,36,27,4
+2013-08-25,rain,light rain,32,25,4
+2013-08-26,small to moderate rain,shower,31,25,4
+2013-08-27,shower,partly cloudy,32,27,4
+2013-08-28,partly cloudy,partly cloudy,35,28,4
+2013-08-29,thunder storm,shower,36,27,4
+2013-08-30,rain,cloudy,31,23,5
+2013-08-31,partly cloudy,partly cloudy,29,22,5
+2013-09-01,partly cloudy,partly cloudy,29,22,5
+2013-09-02,partly cloudy,partly cloudy,30,21,5
+2013-09-03,partly cloudy,partly cloudy,30,22,5
+2013-09-04,partly cloudy,partly cloudy,29,22,5
+2013-09-05,light rain,light rain,26,21,4
+2013-09-06,light rain,light rain,24,21,4
+2013-09-07,light rain,cloudy,25,22,4
+2013-09-08,light rain,partly cloudy,28,24,4
+2013-09-09,partly cloudy,partly cloudy,31,24,4
+2013-09-10,thunder storm,partly cloudy,34,25,4
+2013-09-11,thunder storm,partly cloudy,31,25,4
+2013-09-12,partly cloudy,partly cloudy,33,26,4
+2013-09-13,thunder storm,thunder storm,33,25,4
+2013-09-14,shower,partly cloudy,31,24,4
+2013-09-15,partly cloudy,clear,31,24,4
+2013-09-16,clear,clear,31,22,4
+2013-09-17,partly cloudy,partly cloudy,29,24,5
+2013-09-18,clear,clear,30,24,5
+2013-09-19,partly cloudy,partly cloudy,30,24,4
+2013-09-20,partly cloudy,light rain,29,25,5
+2013-09-21,partly cloudy,light rain,27,23,5
+2013-09-22,shower,shower,29,26,5
+2013-09-23,partly cloudy,partly cloudy,31,25,5
+2013-09-24,partly cloudy,rain,32,21,5
+2013-09-25,light rain,partly cloudy,24,19,5
+2013-09-26,partly cloudy,partly cloudy,25,20,5
+2013-09-27,partly cloudy,light rain,26,20,4
+2013-09-28,light rain,light rain,25,19,4
+2013-09-29,partly cloudy,partly cloudy,26,19,4
+2013-09-30,partly cloudy,partly cloudy,27,20,4
+2013-10-01,partly cloudy,partly cloudy,27,19,4
+2013-10-02,cloudy,partly cloudy,26,18,5
+2013-10-03,partly cloudy,clear,24,17,5
+2013-10-04,clear,clear,26,20,5
+2013-10-05,partly cloudy,shower,26,22,5
+2013-10-06,shower,heavy rain,25,22,6
+2013-10-07,rain,rain,25,22,6
+2013-10-08,rainstorm,light rain,23,20,6
+2013-10-09,cloudy,partly cloudy,25,20,4
+2013-10-10,partly cloudy,clear,27,20,4
+2013-10-11,clear,clear,27,19,4
+2013-10-12,clear,clear,27,19,4
+2013-10-13,clear,clear,28,20,4
+2013-10-14,partly cloudy,light rain,28,16,5
+2013-10-15,light rain,cloudy,20,15,6
+2013-10-16,cloudy,cloudy,19,15,5
+2013-10-17,cloudy,cloudy,21,16,4
+2013-10-18,light rain,cloudy,22,19,4
+2013-10-19,cloudy,partly cloudy,23,17,4
+2013-10-20,partly cloudy,clear,23,15,5
+2013-10-21,partly cloudy,partly cloudy,21,16,4
+2013-10-22,partly cloudy,partly cloudy,22,16,4
+2013-10-23,clear,partly cloudy,22,15,4
+2013-10-24,partly cloudy,partly cloudy,20,14,6
+2013-10-25,partly cloudy,partly cloudy,18,12,5
+2013-10-26,clear,clear,20,11,5
+2013-10-27,clear,partly cloudy,20,13,4
+2013-10-28,clear,partly cloudy,23,15,4
+2013-10-29,clear,partly cloudy,24,18,4
+2013-10-30,cloudy,light rain,22,18,4
+2013-10-31,light rain,partly cloudy,21,17,4
+2013-11-01,n/a,partly cloudy,18,18,4
+2013-11-02,cloudy,cloudy,23,18,4
+2013-11-03,cloudy,partly cloudy,22,15,5
+2013-11-04,clear,clear,20,14,5
+2013-11-05,partly cloudy,partly cloudy,20,14,4
+2013-11-06,partly cloudy,partly cloudy,22,14,4
+2013-11-07,clear,clear,22,16,4
+2013-11-08,clear,partly cloudy,23,18,5
+2013-11-09,cloudy,light rain,26,14,5
+2013-11-10,light rain,cloudy,17,12,5
+2013-11-11,cloudy,cloudy,16,13,4
+2013-11-12,cloudy,cloudy,15,12,4
+2013-11-13,partly cloudy,light rain,18,13,4
+2013-11-14,light rain,cloudy,17,11,4
+2013-11-15,clear,clear,18,10,4
+2013-11-16,clear,clear,19,8,5
+2013-11-17,clear,clear,15,7,5
+2013-11-18,clear,clear,13,6,5
+2013-11-19,clear,clear,14,6,5
+2013-11-20,clear,clear,17,9,4
+2013-11-21,partly cloudy,partly cloudy,19,12,4
+2013-11-22,partly cloudy,clear,19,13,4
+2013-11-23,clear,light rain,20,11,5
+2013-11-24,rain,partly cloudy,18,9,5
+2013-11-25,clear,clear,14,6,5
+2013-11-26,partly cloudy,cloudy,14,6,4
+2013-11-27,cloudy,partly cloudy,13,2,5
+2013-11-28,clear,clear,8,1,5
+2013-11-29,clear,clear,10,2,4
+2013-11-30,clear,clear,14,5,4
+2013-12-01,clear,clear,13,4,4
+2013-12-02,clear,clear,14,7,4
+2013-12-03,partly cloudy,cloudy,17,9,4
+2013-12-04,partly cloudy,partly cloudy,18,9,4
+2013-12-05,partly cloudy,clear,17,9,4
+2013-12-06,partly cloudy,partly cloudy,13,8,4
+2013-12-07,partly cloudy,clear,14,9,4
+2013-12-08,fog,partly cloudy,17,7,4
+2013-12-09,cloudy,partly cloudy,10,3,6
+2013-12-10,clear,clear,9,3,4
+2013-12-11,clear,clear,9,4,5
+2013-12-12,partly cloudy,partly cloudy,12,5,4
+2013-12-13,clear,clear,11,6,4
+2013-12-14,clear,cloudy,13,7,4
+2013-12-15,cloudy,rain,12,6,4
+2013-12-16,rain,rain,8,6,5
+2013-12-17,light rain,light rain,8,6,5
+2013-12-18,partly cloudy,partly cloudy,10,3,5
+2013-12-19,clear,clear,7,1,5
+2013-12-20,clear,clear,7,1,5
+2013-12-21,partly cloudy,partly cloudy,6,1,5
+2013-12-22,partly cloudy,clear,8,3,4
+2013-12-23,partly cloudy,partly cloudy,8,3,4
+2013-12-24,partly cloudy,clear,9,3,4
+2013-12-25,partly cloudy,partly cloudy,9,3,4
+2013-12-26,partly cloudy,cloudy,7,0,5
+2013-12-27,partly cloudy,clear,4,-2,5
+2013-12-28,partly cloudy,clear,5,-1,4
+2013-12-29,clear,clear,6,0,4
+2013-12-30,clear,clear,10,2,4
+2013-12-31,clear,clear,12,4,4

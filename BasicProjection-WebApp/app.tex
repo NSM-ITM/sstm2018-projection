@@ -1,0 +1,664 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={app.R},
+            pdfauthor={Png},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{app.R}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Png}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{Sat Jan 5 10:08:54 2019}
+
+
+\begin{document}
+\maketitle
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# warning: global variables are initiated in-situ}
+\CommentTok{# dirty-spaghetti code ahead}
+\CommentTok{#   - model parametes are hard-coded}
+\CommentTok{#   - UI data ranges are hard-coded}
+
+\KeywordTok{library}\NormalTok{(shiny)}
+
+\KeywordTok{library}\NormalTok{(rpart)}
+\KeywordTok{library}\NormalTok{(randomForest)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## randomForest 4.6-14
+\end{verbatim}
+
+\begin{verbatim}
+## Type rfNews() to see new features/changes/bug fixes.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(mgcv)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Loading required package: nlme
+\end{verbatim}
+
+\begin{verbatim}
+## This is mgcv 1.8-26. For overview type 'help("mgcv-package")'.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(ggplot2)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'ggplot2'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:randomForest':
+## 
+##     margin
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(tidyverse)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## -- Attaching packages ----------------------------------------------------------- tidyverse 1.2.1 --
+\end{verbatim}
+
+\begin{verbatim}
+## √ tibble  1.4.2     √ purrr   0.2.4
+## √ tidyr   0.8.0     √ dplyr   0.7.4
+## √ readr   1.1.1     √ stringr 1.3.0
+## √ tibble  1.4.2     √ forcats 0.3.0
+\end{verbatim}
+
+\begin{verbatim}
+## -- Conflicts -------------------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::collapse() masks nlme::collapse()
+## x dplyr::combine()  masks randomForest::combine()
+## x dplyr::filter()   masks stats::filter()
+## x dplyr::lag()      masks stats::lag()
+## x ggplot2::margin() masks randomForest::margin()
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(neuralnet)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'neuralnet'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:dplyr':
+## 
+##     compute
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(GGally)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'GGally'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:dplyr':
+## 
+##     nasa
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# UI component}
+\NormalTok{models <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{'Linear Regression'}\NormalTok{, }\StringTok{'Recursive Partitioning'}\NormalTok{, }\StringTok{'Random Forest'}\NormalTok{, }\StringTok{'Artificial Nueral Network'}\NormalTok{)}
+
+\NormalTok{minDate <-}\StringTok{ '2015-01-01'}
+\NormalTok{maxDate <-}\StringTok{ '2018-12-27'}
+
+\NormalTok{minTemp <-}\StringTok{ }\OperatorTok{-}\DecValTok{20}
+\NormalTok{maxTemp <-}\StringTok{ }\DecValTok{50}
+
+\NormalTok{minWind <-}\StringTok{ }\DecValTok{0}
+\NormalTok{maxWind <-}\StringTok{ }\DecValTok{8}
+
+\NormalTok{readData <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+  \KeywordTok{setwd}\NormalTok{(}\StringTok{'/Users/Png/Desktop/SSTM2018/workspace/Projection'}\NormalTok{)}
+\NormalTok{  tableData <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{'PrepData.csv'}\NormalTok{, }\DataTypeTok{header =} \OtherTok{TRUE}\NormalTok{)}
+  
+\NormalTok{  minimumVisitorTotal <-}\StringTok{ }\DecValTok{500}   
+\NormalTok{  newTableData <<-}\StringTok{ }\KeywordTok{subset}\NormalTok{(tableData, tableData[ , }\StringTok{"visitorTotal"}\NormalTok{] }\OperatorTok{>=}\StringTok{ }\NormalTok{minimumVisitorTotal) }
+\NormalTok{  newTableData}\OperatorTok{$}\NormalTok{avgTemp <<-}\StringTok{ }\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{minTemp }\OperatorTok{+}\StringTok{ }\NormalTok{newTableData}\OperatorTok{$}\NormalTok{maxTemp) }\OperatorTok{/}\StringTok{ }\DecValTok{2}
+\NormalTok{  newTableData}\OperatorTok{$}\NormalTok{date <<-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{date)}
+  
+\NormalTok{  minDate <<-}\StringTok{ }\KeywordTok{min}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{date)}
+\NormalTok{  maxDate <<-}\StringTok{ }\KeywordTok{max}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{date)}
+  
+\NormalTok{  baseData <<-}\StringTok{ }\NormalTok{newTableData}
+\NormalTok{\}}
+
+\CommentTok{# Model Generation}
+
+\NormalTok{generateLM <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+  \CommentTok{# convert categorical data (binary)}
+\NormalTok{  lmData <-}\StringTok{ }\NormalTok{newTableData}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{  lmData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{  lmData <<-}\StringTok{ }\NormalTok{lmData}
+  
+\NormalTok{  trainIndex <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(lmData), }\FloatTok{0.8} \OperatorTok{*}\StringTok{ }\KeywordTok{nrow}\NormalTok{(lmData))}
+\NormalTok{  testIndex <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(lmData), trainIndex)}
+  
+\NormalTok{  trainData <<-}\StringTok{ }\NormalTok{lmData[trainIndex,]   }\CommentTok{# keep for leveling predictor}
+\NormalTok{  testData <-}\StringTok{ }\NormalTok{lmData[testIndex,]}
+  
+\NormalTok{  lm1 <<-}\StringTok{ }\KeywordTok{lm}\NormalTok{(visitorTotal }\OperatorTok{~}\StringTok{ }\NormalTok{avgTemp }\OperatorTok{+}\StringTok{ }\NormalTok{Fstorm }\OperatorTok{+}\StringTok{ }\NormalTok{Fsnow }\OperatorTok{+}\StringTok{ }\NormalTok{Frain }\OperatorTok{+}\StringTok{ }\NormalTok{Fcloudy }\OperatorTok{+}\StringTok{ }\NormalTok{wind }\OperatorTok{+}\StringTok{ }\NormalTok{Fholiday }\OperatorTok{+}\StringTok{ }\NormalTok{Fweekend, trainData) }\CommentTok{# removed Fclear (flat variable)}
+  
+\NormalTok{\}}
+
+\NormalTok{generateRPART <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+  \CommentTok{# convert categorical data (binary)}
+\NormalTok{  rpartData <-}\StringTok{ }\NormalTok{newTableData}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{  rpartData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{  rpartData <<-}\StringTok{ }\NormalTok{rpartData}
+  
+\NormalTok{  trainIndex <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(rpartData), }\FloatTok{0.8} \OperatorTok{*}\StringTok{ }\KeywordTok{nrow}\NormalTok{(rpartData))}
+\NormalTok{  testIndex <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(rpartData), trainIndex)}
+  
+\NormalTok{  trainData <-}\StringTok{ }\NormalTok{rpartData[trainIndex,]}
+\NormalTok{  testData <-}\StringTok{ }\NormalTok{rpartData[testIndex,]}
+  
+\NormalTok{  rpart1 <<-}\StringTok{ }\KeywordTok{rpart}\NormalTok{(visitorTotal }\OperatorTok{~}\StringTok{ }\NormalTok{avgTemp }\OperatorTok{+}\StringTok{ }\NormalTok{Fstorm }\OperatorTok{+}\StringTok{ }\NormalTok{Fsnow }\OperatorTok{+}\StringTok{ }\NormalTok{Frain }\OperatorTok{+}\StringTok{ }\NormalTok{Fcloudy }\OperatorTok{+}\StringTok{ }\NormalTok{wind }\OperatorTok{+}\StringTok{ }\NormalTok{Fholiday }\OperatorTok{+}\StringTok{ }\NormalTok{Fweekend, trainData)}
+  
+\NormalTok{\}}
+
+\NormalTok{generateRandomForest <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+  \CommentTok{# convert categorical data (binary)}
+\NormalTok{  randomForestData <-}\StringTok{ }\NormalTok{newTableData}
+  
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{  randomForestData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{  randomForestData <<-}\StringTok{ }\NormalTok{randomForestData}
+  
+\NormalTok{  trainIndex <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(randomForestData), }\FloatTok{0.8} \OperatorTok{*}\StringTok{ }\KeywordTok{nrow}\NormalTok{(randomForestData))}
+\NormalTok{  testIndex <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(randomForestData), trainIndex)}
+  
+\NormalTok{  trainData <-}\StringTok{ }\NormalTok{rpartData[trainIndex,]}
+\NormalTok{  testData <-}\StringTok{ }\NormalTok{rpartData[testIndex,]}
+  
+\NormalTok{  rf1 <<-}\StringTok{ }\KeywordTok{randomForest}\NormalTok{(visitorTotal }\OperatorTok{~}\StringTok{ }\NormalTok{avgTemp }\OperatorTok{+}\StringTok{ }\NormalTok{Fstorm }\OperatorTok{+}\StringTok{ }\NormalTok{Fsnow }\OperatorTok{+}\StringTok{ }\NormalTok{Frain }\OperatorTok{+}\StringTok{ }\NormalTok{Fcloudy }\OperatorTok{+}\StringTok{ }\NormalTok{wind }\OperatorTok{+}\StringTok{ }\NormalTok{Fholiday }\OperatorTok{+}\StringTok{ }\NormalTok{Fweekend, trainData, }\DataTypeTok{ntree=}\DecValTok{100}\NormalTok{) }\CommentTok{# removed Fclear (flat variable)}
+\NormalTok{\}}
+
+\NormalTok{generateANN <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+\NormalTok{  annData <<-}\StringTok{ }\NormalTok{newTableData}
+  
+\NormalTok{  trainIndex <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(annData), }\FloatTok{0.8} \OperatorTok{*}\StringTok{ }\KeywordTok{nrow}\NormalTok{(annData))}
+\NormalTok{  testIndex <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(annData), trainIndex)}
+  
+\NormalTok{  trainData <-}\StringTok{ }\NormalTok{annData[trainIndex,]}
+\NormalTok{  testData <-}\StringTok{ }\NormalTok{annData[testIndex,]}
+  
+  \CommentTok{# remove unused columns}
+\NormalTok{  trainData =}\StringTok{ }\NormalTok{trainData[, }\KeywordTok{c}\NormalTok{(}\StringTok{'visitorTotal'}\NormalTok{, }\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)]}
+\NormalTok{  testData =}\StringTok{ }\NormalTok{testData[, }\KeywordTok{c}\NormalTok{(}\StringTok{'visitorTotal'}\NormalTok{, }\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)]}
+  
+\NormalTok{  train.colmins =}\StringTok{ }\KeywordTok{apply}\NormalTok{(trainData,}\DecValTok{2}\NormalTok{,min)}
+\NormalTok{  train.colmaxs =}\StringTok{ }\KeywordTok{apply}\NormalTok{(testData,}\DecValTok{2}\NormalTok{,max)}
+  
+  \CommentTok{# scale data down to [0, 1]}
+\NormalTok{  scaled.train =}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{scale}\NormalTok{(trainData,}\DataTypeTok{center =}\NormalTok{ train.colmins, }\DataTypeTok{scale =}\NormalTok{ train.colmaxs }\OperatorTok{-}\StringTok{ }\NormalTok{train.colmins))}
+\NormalTok{  scaled.test =}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{scale}\NormalTok{(testData,}\DataTypeTok{center =}\NormalTok{ train.colmins, }\DataTypeTok{scale =}\NormalTok{ train.colmaxs }\OperatorTok{-}\StringTok{ }\NormalTok{train.colmins))}
+
+\NormalTok{  n =}\StringTok{ }\KeywordTok{names}\NormalTok{(scaled.train)}
+\NormalTok{  f =}\StringTok{ }\KeywordTok{as.formula}\NormalTok{(}\KeywordTok{paste}\NormalTok{(}\StringTok{"visitorTotal~"}\NormalTok{, }\KeywordTok{paste}\NormalTok{(n[}\OperatorTok{!}\NormalTok{n }\OperatorTok{%in%}\StringTok{ "visitorTotal"}\NormalTok{], }\DataTypeTok{collapse =} \StringTok{"+"}\NormalTok{)))}
+  \CommentTok{#print(scaled.train)}
+\NormalTok{  ann1 <<-}\StringTok{ }\KeywordTok{neuralnet}\NormalTok{(f, }
+                   \DataTypeTok{data =}\NormalTok{ scaled.train,  }
+                   \DataTypeTok{hidden=}\KeywordTok{c}\NormalTok{(}\DecValTok{5}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DecValTok{1}\NormalTok{), }
+                   \DataTypeTok{lifesign =} \StringTok{'full'}\NormalTok{,}
+                   \DataTypeTok{linear.output=}\NormalTok{T)}
+  
+\NormalTok{\}}
+
+\NormalTok{modifyDateRange <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(startDate, endDate) \{}
+  
+  \ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{is_empty}\NormalTok{(startDate) }\OperatorTok{&&}\StringTok{ }\OperatorTok{!}\KeywordTok{is_empty}\NormalTok{(endDate)) \{}
+   
+\NormalTok{    isValidRange =}\StringTok{ }\KeywordTok{nrow}\NormalTok{(newTableData[newTableData}\OperatorTok{$}\NormalTok{date}\OperatorTok{>=}\KeywordTok{as.Date}\NormalTok{(startDate) }\OperatorTok{&}\StringTok{ }\NormalTok{newTableData}\OperatorTok{$}\NormalTok{date}\OperatorTok{<=}\KeywordTok{as.Date}\NormalTok{(endDate),])}
+    
+    \ControlFlowTok{if}\NormalTok{(isValidRange }\OperatorTok{>}\StringTok{ }\DecValTok{0}\NormalTok{) \{}
+\NormalTok{      newDataByDate <-}\StringTok{ }\NormalTok{newTableData[newTableData}\OperatorTok{$}\NormalTok{date}\OperatorTok{>=}\KeywordTok{as.Date}\NormalTok{(startDate) }\OperatorTok{&}\StringTok{ }\NormalTok{newTableData}\OperatorTok{$}\NormalTok{date}\OperatorTok{<=}\KeywordTok{as.Date}\NormalTok{(endDate),]}
+      
+      \CommentTok{# reset lm data}
+\NormalTok{      lmData <-}\StringTok{ }\NormalTok{newDataByDate}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{      lmData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{      lmData <<-}\StringTok{ }\NormalTok{lmData}
+      
+      \CommentTok{# reset rpart data}
+\NormalTok{      rpartData <-}\StringTok{ }\NormalTok{newDataByDate}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{      rpartData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{      rpartData <<-}\StringTok{ }\NormalTok{rpartData}
+      
+      \CommentTok{# reset random forest data}
+\NormalTok{      randomForestData <-}\StringTok{ }\NormalTok{newDataByDate}
+      
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{cloudy)}
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{rain)}
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{snow)}
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{storm)}
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{weekend)}
+\NormalTok{      randomForestData}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(newDataByDate}\OperatorTok{$}\NormalTok{holiday)}
+\NormalTok{      randomForestData <<-}\StringTok{ }\NormalTok{randomForestData}
+    
+      \CommentTok{# reset ANN data}
+\NormalTok{      annData <<-}\StringTok{ }\NormalTok{newDataByDate}
+      
+\NormalTok{      baseData <<-}\StringTok{ }\NormalTok{newDataByDate}
+\NormalTok{    \}}
+\NormalTok{  \} }
+\NormalTok{\}}
+
+\CommentTok{# Preview Plot}
+
+\NormalTok{generateBasePlot <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+  \KeywordTok{plot}\NormalTok{(baseData}\OperatorTok{$}\NormalTok{visitorTotal, }\DataTypeTok{type=}\StringTok{'l'}\NormalTok{, }\DataTypeTok{col=}\StringTok{'gray'}\NormalTok{)}
+\NormalTok{\}}
+
+\NormalTok{plotPreviewLM <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+\NormalTok{  plm1 <<-}\StringTok{ }\KeywordTok{predict}\NormalTok{(lm1, lmData)}
+  \KeywordTok{lines}\NormalTok{(plm1,}\DataTypeTok{col=}\StringTok{"red"}\NormalTok{)}
+\NormalTok{\}}
+
+\NormalTok{plotPreviewRPART <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+\NormalTok{  prpart1 <<-}\StringTok{ }\KeywordTok{predict}\NormalTok{(rpart1, rpartData)}
+  \KeywordTok{lines}\NormalTok{(prpart1,}\DataTypeTok{col=}\StringTok{"orange"}\NormalTok{)}
+\NormalTok{\}}
+
+\NormalTok{plotPreviewRandomForest <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+\NormalTok{  prf1 <<-}\StringTok{ }\KeywordTok{predict}\NormalTok{(rf1, randomForestData)}
+  \KeywordTok{lines}\NormalTok{(prf1,}\DataTypeTok{col=}\StringTok{"blue"}\NormalTok{)}
+\NormalTok{\}}
+
+\NormalTok{plotPreviewANN <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{() \{}
+\NormalTok{  croppedANNData =}\StringTok{ }\NormalTok{annData[,}\KeywordTok{c}\NormalTok{(}\StringTok{'visitorTotal'}\NormalTok{, }\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)]}
+
+  \CommentTok{# scale down [0, 1]}
+\NormalTok{  data.colmins =}\StringTok{ }\KeywordTok{apply}\NormalTok{(croppedANNData,}\DecValTok{2}\NormalTok{,min)}
+\NormalTok{  data.colmaxs =}\StringTok{ }\KeywordTok{apply}\NormalTok{(croppedANNData,}\DecValTok{2}\NormalTok{,max)}
+  
+\NormalTok{  scaled.data =}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{scale}\NormalTok{(croppedANNData, }\DataTypeTok{center =}\NormalTok{ data.colmins, }\DataTypeTok{scale =}\NormalTok{ data.colmaxs }\OperatorTok{-}\StringTok{ }\NormalTok{data.colmins))}
+  
+\NormalTok{  pred.NN1 =}\StringTok{ }\KeywordTok{compute}\NormalTok{(ann1, scaled.data[,}\KeywordTok{c}\NormalTok{(}\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)])}
+  
+  \CommentTok{# scale back}
+\NormalTok{  pred.NN1_ =}\StringTok{ }\NormalTok{pred.NN1}\OperatorTok{$}\NormalTok{net.result }\OperatorTok{*}\StringTok{ }\NormalTok{(}\KeywordTok{max}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal) }\OperatorTok{-}\StringTok{ }\KeywordTok{min}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal)) }\OperatorTok{+}\StringTok{ }\KeywordTok{min}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal)}
+  
+  \KeywordTok{lines}\NormalTok{(pred.NN1_, }\DataTypeTok{col=}\StringTok{'green'}\NormalTok{)}
+  
+\NormalTok{\}}
+
+\CommentTok{# Predict and display}
+\NormalTok{predictLM <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(factoredPredictingCondition) \{}
+\NormalTok{  pred <-}\StringTok{ }\KeywordTok{predict}\NormalTok{(lm1, factoredPredictingCondition)}
+  \KeywordTok{print}\NormalTok{(pred)}
+\NormalTok{  predictedVisitor <<-}\StringTok{ }\NormalTok{pred}
+\NormalTok{\}}
+\NormalTok{predictRPART <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(factoredPredictingCondition) \{}
+\NormalTok{  pred <-}\StringTok{ }\KeywordTok{predict}\NormalTok{(rpart1, factoredPredictingCondition)}
+  \KeywordTok{print}\NormalTok{(pred)}
+\NormalTok{  predictedVisitor <<-}\StringTok{ }\NormalTok{pred}
+\NormalTok{\}}
+\NormalTok{predictRandomForest <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(factoredPredictingCondition) \{}
+\NormalTok{  pred <-}\StringTok{ }\KeywordTok{predict}\NormalTok{(rf1, factoredPredictingCondition)}
+  \KeywordTok{print}\NormalTok{(pred)}
+\NormalTok{  predictedVisitor <<-}\StringTok{ }\NormalTok{pred}
+\NormalTok{\}}
+\NormalTok{predictANN <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(predictingCondition) \{}
+\NormalTok{  croppedANNData =}\StringTok{ }\NormalTok{newTableData[,}\KeywordTok{c}\NormalTok{(}\StringTok{'visitorTotal'}\NormalTok{, }\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)]}
+  \CommentTok{# scale down [0, 1]}
+\NormalTok{  data.colmins =}\StringTok{ }\KeywordTok{apply}\NormalTok{(croppedANNData,}\DecValTok{2}\NormalTok{,min)}
+\NormalTok{  data.colmaxs =}\StringTok{ }\KeywordTok{apply}\NormalTok{(croppedANNData,}\DecValTok{2}\NormalTok{,max)}
+  
+\NormalTok{  scaled.data =}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{scale}\NormalTok{(predictingCondition, }\DataTypeTok{center =}\NormalTok{ data.colmins, }\DataTypeTok{scale =}\NormalTok{ data.colmaxs }\OperatorTok{-}\StringTok{ }\NormalTok{data.colmins))}
+  
+\NormalTok{  pred.NN1 =}\StringTok{ }\KeywordTok{compute}\NormalTok{(ann1, scaled.data[,}\KeywordTok{c}\NormalTok{(}\StringTok{'avgTemp'}\NormalTok{, }\StringTok{'storm'}\NormalTok{, }\StringTok{'snow'}\NormalTok{, }\StringTok{'rain'}\NormalTok{, }\StringTok{'cloudy'}\NormalTok{, }\StringTok{'wind'}\NormalTok{, }\StringTok{'weekend'}\NormalTok{, }\StringTok{'holiday'}\NormalTok{)])}
+  
+  \CommentTok{# scale back}
+\NormalTok{  pred.NN1_ =}\StringTok{ }\NormalTok{pred.NN1}\OperatorTok{$}\NormalTok{net.result }\OperatorTok{*}\StringTok{ }\NormalTok{(}\KeywordTok{max}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal) }\OperatorTok{-}\StringTok{ }\KeywordTok{min}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal)) }\OperatorTok{+}\StringTok{ }\KeywordTok{min}\NormalTok{(newTableData}\OperatorTok{$}\NormalTok{visitorTotal)}
+  
+  \KeywordTok{print}\NormalTok{(pred.NN1_)}
+\NormalTok{  predictedVisitor <<-}\StringTok{ }\NormalTok{pred.NN1_}
+\NormalTok{\}}
+
+\CommentTok{# ====================================================================}
+\CommentTok{# User Interface}
+\NormalTok{ui <-}\StringTok{ }\KeywordTok{fluidPage}\NormalTok{(}
+  
+  \KeywordTok{titlePanel}\NormalTok{(}\StringTok{"Visitor Projection - Test 01"}\NormalTok{),}
+  
+  \KeywordTok{tabsetPanel}\NormalTok{(}
+      \KeywordTok{tabPanel}\NormalTok{(}\StringTok{"Introduction"}\NormalTok{, }
+               
+                   
+               \KeywordTok{h2}\NormalTok{(}\StringTok{'Text Panel'}\NormalTok{),}
+               \KeywordTok{p}\NormalTok{(}\StringTok{'Introduction text'}\NormalTok{)}
+                   
+              
+\NormalTok{            ), }
+      
+      \KeywordTok{tabPanel}\NormalTok{(}\StringTok{"Model Preview"}\NormalTok{, }
+               \KeywordTok{sidebarLayout}\NormalTok{(}
+                 \DataTypeTok{position =} \StringTok{"right"}\NormalTok{,}
+                 \KeywordTok{sidebarPanel}\NormalTok{(}
+                   \KeywordTok{dateRangeInput}\NormalTok{(}\StringTok{"dates"}\NormalTok{, }\KeywordTok{h3}\NormalTok{(}\StringTok{"Date Range:"}\NormalTok{), }\DataTypeTok{start =}\NormalTok{ minDate, }\DataTypeTok{end =}\NormalTok{ maxDate),}
+                   \KeywordTok{h4}\NormalTok{(}\StringTok{'Show Model:'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'lm'}\NormalTok{, }\StringTok{'Linear Regression'}\NormalTok{, }\DataTypeTok{value =} \OtherTok{TRUE}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'rpart'}\NormalTok{, }\StringTok{'Recursive Partitioning'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'rf'}\NormalTok{, }\StringTok{'Random Forest'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'ann'}\NormalTok{, }\StringTok{'Artificial Neural Network'}\NormalTok{)}
+                  
+\NormalTok{                 ), }\KeywordTok{mainPanel}\NormalTok{(}
+                   \KeywordTok{plotOutput}\NormalTok{(}\StringTok{'plotPreview'}\NormalTok{),}
+                   \KeywordTok{h6}\NormalTok{(}\StringTok{'* Available data between 2015-01-01 and 2018-12-17'}\NormalTok{)}
+                   
+\NormalTok{                 )}
+                 
+                 
+\NormalTok{               )}
+\NormalTok{            ), }
+      \KeywordTok{tabPanel}\NormalTok{(}\StringTok{"Projection"}\NormalTok{, }
+               \KeywordTok{sidebarLayout}\NormalTok{(}
+                 \DataTypeTok{position =} \StringTok{"right"}\NormalTok{,}
+                 \KeywordTok{sidebarPanel}\NormalTok{(}
+                   \KeywordTok{selectInput}\NormalTok{(}\StringTok{'model'}\NormalTok{, }\StringTok{'Model Selection:'}\NormalTok{, models),}
+                   \KeywordTok{h4}\NormalTok{(}\StringTok{'Weather Condition:'}\NormalTok{),}
+                   \KeywordTok{sliderInput}\NormalTok{(}\DataTypeTok{inputId =} \StringTok{"avgTemp"}\NormalTok{,}
+                               \DataTypeTok{label =} \StringTok{"Average Temperature (c):"}\NormalTok{,}
+                               \DataTypeTok{min =}\NormalTok{ minTemp,}
+                               \DataTypeTok{max =}\NormalTok{ maxTemp,}
+                               \DataTypeTok{value =} \DecValTok{20}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'cloudy'}\NormalTok{, }\StringTok{'Cloudy'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'rain'}\NormalTok{, }\StringTok{'Rain'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'storm'}\NormalTok{, }\StringTok{'Storm'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'snow'}\NormalTok{, }\StringTok{'Snow'}\NormalTok{),}
+                   \KeywordTok{sliderInput}\NormalTok{(}\DataTypeTok{inputId =} \StringTok{"wind"}\NormalTok{,}
+                               \DataTypeTok{label =} \StringTok{"Wind Speed:"}\NormalTok{,}
+                               \DataTypeTok{min =}\NormalTok{ minWind,}
+                               \DataTypeTok{max =}\NormalTok{ maxWind,}
+                               \DataTypeTok{value =} \DecValTok{3}\NormalTok{),}
+                   \KeywordTok{h4}\NormalTok{(}\StringTok{'Date Condition:'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'weekend'}\NormalTok{, }\StringTok{'Weekend'}\NormalTok{),}
+                   \KeywordTok{checkboxInput}\NormalTok{(}\StringTok{'holiday'}\NormalTok{, }\StringTok{'Holiday'}\NormalTok{)}
+                   
+\NormalTok{                 ), }\KeywordTok{mainPanel}\NormalTok{(}
+                    \CommentTok{#plotOutput("plotPredict")      # TO-DO switch to plot}
+                    \KeywordTok{textOutput}\NormalTok{(}\StringTok{"textPredict"}\NormalTok{)}
+                   
+\NormalTok{                 )}
+               
+               
+\NormalTok{              )}
+\NormalTok{      ),}
+      \KeywordTok{hr}\NormalTok{(),}
+      \KeywordTok{h5}\NormalTok{(}\StringTok{'SSTM Visitor Predictive Analysis Prototype - 2019'}\NormalTok{)}
+\NormalTok{  )}
+\NormalTok{)}
+
+\CommentTok{# ====================================================================}
+\CommentTok{# Server Logic}
+\NormalTok{server <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(input, output) \{}
+  
+  \CommentTok{# prepare date for models}
+  \KeywordTok{readData}\NormalTok{()  }\CommentTok{# newTableData is now global var - don't modify}
+  
+  \KeywordTok{generateLM}\NormalTok{()}
+  \KeywordTok{generateRPART}\NormalTok{()}
+  \KeywordTok{generateRandomForest}\NormalTok{()}
+  \CommentTok{#generateANN()}
+  
+  
+  \CommentTok{# output rendering}
+  \CommentTok{# Model Preview}
+\NormalTok{  output}\OperatorTok{$}\NormalTok{plotPreview <-}\StringTok{ }\KeywordTok{renderPlot}\NormalTok{(\{}
+    
+\NormalTok{    startDate <<-}\StringTok{ }\NormalTok{input}\OperatorTok{$}\NormalTok{dates[}\DecValTok{1}\NormalTok{]}
+\NormalTok{    endDate <<-}\StringTok{ }\NormalTok{input}\OperatorTok{$}\NormalTok{dates[}\DecValTok{2}\NormalTok{]}
+    
+    \KeywordTok{modifyDateRange}\NormalTok{(startDate, endDate)}
+    
+    \CommentTok{# plot base graph from whole data}
+    \KeywordTok{generateBasePlot}\NormalTok{()}
+    
+    \ControlFlowTok{if}\NormalTok{(input}\OperatorTok{$}\NormalTok{lm)}
+      \KeywordTok{plotPreviewLM}\NormalTok{()}
+    
+    \ControlFlowTok{if}\NormalTok{(input}\OperatorTok{$}\NormalTok{rpart)}
+      \KeywordTok{plotPreviewRPART}\NormalTok{()}
+    
+    \ControlFlowTok{if}\NormalTok{(input}\OperatorTok{$}\NormalTok{rf)}
+      \KeywordTok{plotPreviewRandomForest}\NormalTok{()}
+    
+    \CommentTok{#if(input$ann)}
+      \CommentTok{#plotPreviewANN()}
+    
+\NormalTok{  \})}
+  
+  \CommentTok{# Projection}
+  \CommentTok{#output$plotPredict <- renderPlot(\{       # TO-DO switch to plot}
+\NormalTok{  output}\OperatorTok{$}\NormalTok{textPredict <-}\StringTok{ }\KeywordTok{renderText}\NormalTok{(\{}
+    
+\NormalTok{    predictingCondition <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}
+                                    \DataTypeTok{visitorTotal =} \DecValTok{0}\NormalTok{,}
+                                    \DataTypeTok{avgTemp =}\NormalTok{ input}\OperatorTok{$}\NormalTok{avgTemp,}
+                                    \DataTypeTok{storm =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{storm, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{),}
+                                    \DataTypeTok{snow =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{snow, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{),}
+                                    \DataTypeTok{rain =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{rain, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{),}
+                                    \DataTypeTok{cloudy =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{cloudy, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{),}
+                                    \DataTypeTok{wind =}\NormalTok{ input}\OperatorTok{$}\NormalTok{wind,}
+                                    \DataTypeTok{weekend =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{weekend, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{),}
+                                    \DataTypeTok{holiday =} \KeywordTok{ifelse}\NormalTok{(input}\OperatorTok{$}\NormalTok{holiday, }\DecValTok{1}\NormalTok{, }\DecValTok{0}\NormalTok{)}
+\NormalTok{                                  )}
+   
+    \CommentTok{#input$model}
+    \CommentTok{#input$avgTemp}
+    \CommentTok{#input$cloudy}
+    \CommentTok{#input$rain}
+    \CommentTok{#input$storm}
+    \CommentTok{#input$snow}
+    \CommentTok{#input$weekend}
+    \CommentTok{#input$holiday}
+    
+\NormalTok{    factoredPredictingCondition <-}\StringTok{ }\NormalTok{predictingCondition}
+    
+    \CommentTok{# assigning value with proper levels}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Fcloudy <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{cloudy, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Frain <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{rain, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Fsnow <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{snow, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Fstorm <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{storm, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Fweekend <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{weekend, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+\NormalTok{    factoredPredictingCondition}\OperatorTok{$}\NormalTok{Fholiday <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(factoredPredictingCondition}\OperatorTok{$}\NormalTok{holiday, }\DataTypeTok{levels =} \KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{,}\DecValTok{1}\NormalTok{))}
+  
+    \ControlFlowTok{switch}\NormalTok{ (input}\OperatorTok{$}\NormalTok{model,}
+      \StringTok{'Linear Regression'}\NormalTok{ =}\StringTok{ }\KeywordTok{predictLM}\NormalTok{(factoredPredictingCondition),}
+      \StringTok{'Recursive Partitioning'}\NormalTok{ =}\StringTok{ }\KeywordTok{predictRPART}\NormalTok{(factoredPredictingCondition),}
+      \StringTok{'Random Forest'}\NormalTok{ =}\StringTok{ }\KeywordTok{predictRandomForest}\NormalTok{(factoredPredictingCondition),}
+      \StringTok{'Artificial Nueral Network'}\NormalTok{ =}\StringTok{ }\KeywordTok{predictANN}\NormalTok{(predictingCondition)}
+\NormalTok{    )}
+    
+   
+      \KeywordTok{paste}\NormalTok{(predictedVisitor)}
+      
+   
+    
+\NormalTok{  \})}
+  
+  
+   
+\NormalTok{\}}
+
+\CommentTok{# ====================================================================}
+
+\CommentTok{# Initialize App}
+\KeywordTok{shinyApp}\NormalTok{(}\DataTypeTok{ui =}\NormalTok{ ui, }\DataTypeTok{server =}\NormalTok{ server)}
+\end{Highlighting}
+\end{Shaded}
+
+Shiny applications not supported in static R Markdown documents
+
+
+\end{document}

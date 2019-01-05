@@ -1,0 +1,366 @@
+2012-01-01,clear,partly cloudy,10,3,5
+2012-01-02,cloudy,partly cloudy,8,2,4
+2012-01-03,cloudy,partly cloudy,6,-1,5
+2012-01-04,clear,clear,4,-3,6
+2012-01-05,partly cloudy,cloudy,5,1,4
+2012-01-06,cloudy,partly cloudy,6,4,5
+2012-01-07,partly cloudy,cloudy,8,5,4
+2012-01-08,light rain,light rain,8,5,4
+2012-01-09,cloudy,cloudy,9,5,4
+2012-01-10,cloudy,cloudy,9,4,4
+2012-01-11,cloudy,partly cloudy,7,2,5
+2012-01-12,partly cloudy,cloudy,8,5,4
+2012-01-13,cloudy,light rain,10,5,4
+2012-01-14,rain,small to moderate rain,6,5,4
+2012-01-15,light rain,light rain,7,5,4
+2012-01-16,cloudy,partly cloudy,9,3,4
+2012-01-17,partly cloudy,cloudy,10,7,4
+2012-01-18,light rain,light rain,10,6,4
+2012-01-19,light rain,cloudy,9,4,5
+2012-01-20,cloudy,light rain,9,3,5
+2012-01-21,light rain,sleet,6,1,6
+2012-01-22,light snow,cloudy,4,-1,5
+2012-01-23,partly cloudy,partly cloudy,4,-2,5
+2012-01-24,partly cloudy,partly cloudy,4,-3,4
+2012-01-25,clear,clear,5,-2,4
+2012-01-26,clear,partly cloudy,7,1,4
+2012-01-27,light rain,light rain,10,5,5
+2012-01-28,light rain,light rain,7,4,5
+2012-01-29,cloudy,light rain,8,3,5
+2012-01-30,cloudy,partly cloudy,8,2,4
+2012-01-31,partly cloudy,partly cloudy,10,2,5
+2012-02-01,cloudy,cloudy,6,-1,5
+2012-02-02,partly cloudy,partly cloudy,4,-2,5
+2012-02-03,clear,clear,5,0,4
+2012-02-04,partly cloudy,light rain,8,6,4
+2012-02-05,light rain,small to moderate rain,12,6,4
+2012-02-06,rain,light rain,9,-1,5
+2012-02-07,partly cloudy,partly cloudy,3,-4,6
+2012-02-08,partly cloudy,partly cloudy,4,-3,5
+2012-02-09,partly cloudy,cloudy,5,2,4
+2012-02-10,cloudy,light rain,5,-1,4
+2012-02-11,cloudy,cloudy,6,3,4
+2012-02-12,light rain,light rain,9,7,5
+2012-02-13,light rain,light rain,11,6,4
+2012-02-14,light rain,rain,8,4,4
+2012-02-15,light rain,light rain,7,4,5
+2012-02-16,cloudy,cloudy,7,0,4
+2012-02-17,partly cloudy,clear,6,0,5
+2012-02-18,clear,clear,6,-3,4
+2012-02-19,clear,clear,8,0,3
+2012-02-20,partly cloudy,light rain,10,7,4
+2012-02-21,light rain,small to moderate rain,12,9,4
+2012-02-22,rain,small to moderate rain,12,5,4
+2012-02-23,cloudy,light rain,10,4,5
+2012-02-24,light rain,cloudy,7,4,5
+2012-02-25,cloudy,cloudy,7,2,5
+2012-02-26,cloudy,cloudy,5,2,5
+2012-02-27,partly cloudy,sleet,7,4,4
+2012-02-28,light rain,cloudy,7,4,5
+2012-02-29,light rain,light rain,9,7,4
+2012-03-01,light rain,small to moderate rain,11,5,4
+2012-03-02,light rain,cloudy,9,5,5
+2012-03-03,rain,small to moderate rain,8,7,4
+2012-03-04,medium to heavy rain,rain,9,7,4
+2012-03-05,light rain,cloudy,9,5,4
+2012-03-06,partly cloudy,light rain,11,6,4
+2012-03-07,light rain,light rain,8,4,5
+2012-03-08,light rain,light rain,8,5,5
+2012-03-09,cloudy,partly cloudy,9,2,5
+2012-03-10,clear,partly cloudy,11,2,4
+2012-03-11,partly cloudy,clear,9,1,5
+2012-03-12,clear,partly cloudy,9,2,4
+2012-03-13,clear,clear,11,4,4
+2012-03-14,clear,partly cloudy,14,8,4
+2012-03-15,rain,rain,12,9,5
+2012-03-16,light rain,cloudy,16,11,5
+2012-03-17,light rain,thunder storm,15,9,4
+2012-03-18,partly cloudy,cloudy,15,6,5
+2012-03-19,light rain,light rain,9,5,4
+2012-03-20,light rain,partly cloudy,10,5,4
+2012-03-21,clear,partly cloudy,14,9,5
+2012-03-22,small to moderate rain,rain,18,7,5
+2012-03-23,light rain,partly cloudy,10,6,5
+2012-03-24,clear,clear,15,6,4
+2012-03-25,clear,clear,18,8,4
+2012-03-26,partly cloudy,partly cloudy,21,13,4
+2012-03-27,clear,clear,22,12,5
+2012-03-28,clear,partly cloudy,23,13,4
+2012-03-29,partly cloudy,shower,23,10,5
+2012-03-30,rain,light rain,17,8,5
+2012-03-31,clear,clear,18,8,4
+2012-04-01,clear,partly cloudy,19,12,5
+2012-04-02,partly cloudy,thunder storm,25,10,6
+2012-04-03,partly cloudy,clear,16,8,6
+2012-04-04,clear,cloudy,21,12,4
+2012-04-05,clear,partly cloudy,24,11,5
+2012-04-06,clear,partly cloudy,22,12,4
+2012-04-07,partly cloudy,clear,22,13,5
+2012-04-08,partly cloudy,partly cloudy,23,16,5
+2012-04-09,shower,shower,22,16,5
+2012-04-10,shower,small to moderate rain,24,14,4
+2012-04-11,partly cloudy,partly cloudy,22,11,5
+2012-04-12,light rain,small to moderate rain,17,13,4
+2012-04-13,light rain,cloudy,17,11,4
+2012-04-14,partly cloudy,light rain,21,14,4
+2012-04-15,partly cloudy,partly cloudy,21,13,4
+2012-04-16,clear,partly cloudy,23,12,4
+2012-04-17,partly cloudy,partly cloudy,21,13,4
+2012-04-18,shower,light rain,19,14,5
+2012-04-19,cloudy,partly cloudy,20,15,4
+2012-04-20,light rain,rain,21,16,4
+2012-04-21,light rain,partly cloudy,20,14,4
+2012-04-22,clear,partly cloudy,24,14,3
+2012-04-23,clear,partly cloudy,26,19,5
+2012-04-24,shower,medium to heavy rain,24,17,6
+2012-04-25,cloudy,partly cloudy,22,13,5
+2012-04-26,clear,clear,24,15,4
+2012-04-27,clear,clear,27,16,5
+2012-04-28,partly cloudy,shower,27,19,5
+2012-04-29,thunder storm,cloudy,24,20,5
+2012-04-30,cloudy,thunder storm,22,17,4
+2012-05-01,shower,cloudy,20,16,5
+2012-05-02,cloudy,partly cloudy,22,15,5
+2012-05-03,clear,cloudy,27,17,3
+2012-05-04,partly cloudy,clear,27,18,3
+2012-05-05,clear,clear,31,18,3
+2012-05-06,clear,clear,32,21,5
+2012-05-07,cloudy,light rain,22,17,4
+2012-05-08,shower,cloudy,21,18,5
+2012-05-09,partly cloudy,partly cloudy,26,17,4
+2012-05-10,partly cloudy,clear,27,18,4
+2012-05-11,partly cloudy,partly cloudy,27,19,4
+2012-05-12,partly cloudy,rain,25,18,5
+2012-05-13,shower,light rain,23,18,5
+2012-05-14,light rain,light rain,26,19,4
+2012-05-15,cloudy,partly cloudy,27,18,4
+2012-05-16,clear,partly cloudy,30,20,4
+2012-05-17,clear,partly cloudy,31,18,4
+2012-05-18,partly cloudy,light rain,28,18,5
+2012-05-19,small to moderate rain,light rain,21,16,5
+2012-05-20,light rain,cloudy,21,17,5
+2012-05-21,clear,partly cloudy,26,18,4
+2012-05-22,partly cloudy,partly cloudy,25,18,4
+2012-05-23,shower,shower,24,19,4
+2012-05-24,shower,shower,23,18,4
+2012-05-25,shower,cloudy,23,18,5
+2012-05-26,cloudy,clear,25,18,4
+2012-05-27,clear,clear,29,17,4
+2012-05-28,clear,clear,29,20,4
+2012-05-29,partly cloudy,rain,28,19,5
+2012-05-30,small to moderate rain,light rain,21,19,5
+2012-05-31,cloudy,partly cloudy,25,19,5
+2012-06-01,cloudy,light rain,25,20,4
+2012-06-02,cloudy,partly cloudy,26,19,4
+2012-06-03,partly cloudy,partly cloudy,26,20,4
+2012-06-04,shower,cloudy,25,21,5
+2012-06-05,partly cloudy,cloudy,26,22,4
+2012-06-06,cloudy,shower,27,22,4
+2012-06-07,shower,cloudy,29,24,4
+2012-06-08,cloudy,partly cloudy,33,24,3
+2012-06-09,partly cloudy,partly cloudy,32,24,4
+2012-06-10,partly cloudy,light rain,32,24,4
+2012-06-11,light rain,cloudy,27,23,4
+2012-06-12,cloudy,partly cloudy,31,21,4
+2012-06-13,clear,clear,32,22,4
+2012-06-14,partly cloudy,cloudy,30,23,4
+2012-06-15,shower,cloudy,28,23,4
+2012-06-16,partly cloudy,partly cloudy,28,22,4
+2012-06-17,shower,heavy rain,25,21,4
+2012-06-18,heavy rain,light rain,25,22,5
+2012-06-19,cloudy,cloudy,26,21,4
+2012-06-20,partly cloudy,light rain,27,22,4
+2012-06-21,partly cloudy,partly cloudy,28,22,4
+2012-06-22,partly cloudy,heavy rain,26,22,5
+2012-06-23,rain,shower,24,22,5
+2012-06-24,shower,cloudy,27,23,4
+2012-06-25,cloudy,shower,28,22,4
+2012-06-26,medium to heavy rain,rain,25,23,4
+2012-06-27,rain,shower,25,23,4
+2012-06-28,shower,cloudy,28,24,4
+2012-06-29,partly cloudy,partly cloudy,34,25,5
+2012-06-30,thunder storm,thunder storm,34,26,4
+2012-07-01,thunder storm,partly cloudy,33,27,4
+2012-07-02,partly cloudy,partly cloudy,36,29,4
+2012-07-03,partly cloudy,partly cloudy,35,28,4
+2012-07-04,partly cloudy,partly cloudy,37,28,4
+2012-07-05,clear,partly cloudy,38,29,5
+2012-07-06,partly cloudy,thunder storm,38,27,4
+2012-07-07,thunder storm,partly cloudy,32,26,4
+2012-07-08,thunder storm,partly cloudy,32,27,4
+2012-07-09,partly cloudy,partly cloudy,34,28,4
+2012-07-10,partly cloudy,thunder storm,37,27,4
+2012-07-11,thunder storm,partly cloudy,34,27,4
+2012-07-12,thunder storm,thunder storm,35,27,4
+2012-07-13,thunder storm,thunder storm,32,25,4
+2012-07-14,thunder storm,thunder storm,32,23,4
+2012-07-15,cloudy,cloudy,29,24,4
+2012-07-16,light rain,partly cloudy,28,25,4
+2012-07-17,shower,medium to heavy rain,29,25,4
+2012-07-18,shower,partly cloudy,29,26,4
+2012-07-19,partly cloudy,partly cloudy,33,27,4
+2012-07-20,thunder storm,partly cloudy,34,27,4
+2012-07-21,partly cloudy,clear,35,27,5
+2012-07-22,partly cloudy,partly cloudy,34,28,5
+2012-07-23,clear,partly cloudy,34,27,5
+2012-07-24,clear,clear,34,27,5
+2012-07-25,clear,clear,34,27,5
+2012-07-26,clear,partly cloudy,34,27,4
+2012-07-27,clear,clear,34,28,4
+2012-07-28,clear,partly cloudy,35,28,4
+2012-07-29,clear,partly cloudy,35,28,4
+2012-07-30,clear,partly cloudy,35,28,4
+2012-07-31,partly cloudy,partly cloudy,35,27,4
+2012-08-01,partly cloudy,shower,34,27,5
+2012-08-02,medium to heavy rain,heavy rain,32,27,6
+2012-08-03,shower,shower,32,27,6
+2012-08-04,partly cloudy,partly cloudy,33,27,5
+2012-08-05,partly cloudy,partly cloudy,34,27,5
+2012-08-06,shower,shower,32,26,5
+2012-08-07,shower,heavy rain,31,25,6
+2012-08-08,rainstorm,medium to heavy rain,28,25,8
+2012-08-09,rain,shower,30,27,5
+2012-08-10,light rain,partly cloudy,32,27,5
+2012-08-11,shower,partly cloudy,33,27,5
+2012-08-12,partly cloudy,partly cloudy,34,28,4
+2012-08-13,thunder storm,partly cloudy,34,28,4
+2012-08-14,partly cloudy,partly cloudy,35,28,4
+2012-08-15,partly cloudy,partly cloudy,36,28,4
+2012-08-16,partly cloudy,partly cloudy,35,28,4
+2012-08-17,partly cloudy,partly cloudy,35,28,4
+2012-08-18,clear,partly cloudy,35,28,4
+2012-08-19,partly cloudy,partly cloudy,35,28,4
+2012-08-20,partly cloudy,partly cloudy,35,26,4
+2012-08-21,partly cloudy,shower,34,24,4
+2012-08-22,thunder storm,shower,28,25,5
+2012-08-23,shower,shower,29,24,5
+2012-08-24,shower,shower,29,26,5
+2012-08-25,thunder storm,partly cloudy,32,26,5
+2012-08-26,partly cloudy,shower,32,25,6
+2012-08-27,heavy rain,light rain,29,26,7
+2012-08-28,partly cloudy,partly cloudy,32,26,6
+2012-08-29,partly cloudy,shower,31,26,5
+2012-08-30,partly cloudy,partly cloudy,32,26,4
+2012-08-31,partly cloudy,clear,32,25,4
+2012-09-01,clear,partly cloudy,32,25,4
+2012-09-02,clear,partly cloudy,32,25,4
+2012-09-03,thunder storm,thunder storm,29,23,4
+2012-09-04,shower,shower,26,22,4
+2012-09-05,shower,cloudy,26,23,4
+2012-09-06,cloudy,shower,28,24,4
+2012-09-07,thunder storm,partly cloudy,29,24,4
+2012-09-08,partly cloudy,thunder storm,30,23,5
+2012-09-09,shower,thunder storm,27,23,4
+2012-09-10,partly cloudy,partly cloudy,28,23,4
+2012-09-11,partly cloudy,partly cloudy,29,23,4
+2012-09-12,thunder storm,thunder storm,30,21,4
+2012-09-13,rain,shower,23,20,5
+2012-09-14,cloudy,partly cloudy,24,21,5
+2012-09-15,partly cloudy,partly cloudy,26,21,5
+2012-09-16,partly cloudy,partly cloudy,27,20,6
+2012-09-17,clear,clear,25,18,5
+2012-09-18,clear,clear,27,18,4
+2012-09-19,clear,clear,28,21,4
+2012-09-20,clear,partly cloudy,28,21,4
+2012-09-21,cloudy,shower,27,21,4
+2012-09-22,shower,cloudy,23,19,4
+2012-09-23,partly cloudy,partly cloudy,27,20,4
+2012-09-24,clear,partly cloudy,27,19,4
+2012-09-25,partly cloudy,partly cloudy,27,21,4
+2012-09-26,partly cloudy,partly cloudy,27,21,4
+2012-09-27,partly cloudy,partly cloudy,26,20,4
+2012-09-28,partly cloudy,partly cloudy,28,18,5
+2012-09-29,clear,clear,23,17,4
+2012-09-30,partly cloudy,clear,24,15,5
+2012-10-01,clear,clear,25,15,4
+2012-10-02,clear,partly cloudy,26,16,4
+2012-10-03,partly cloudy,partly cloudy,26,18,4
+2012-10-04,clear,clear,27,19,4
+2012-10-05,partly cloudy,cloudy,26,19,4
+2012-10-06,partly cloudy,partly cloudy,25,19,4
+2012-10-07,partly cloudy,partly cloudy,25,17,4
+2012-10-08,cloudy,partly cloudy,24,18,4
+2012-10-09,partly cloudy,partly cloudy,25,17,4
+2012-10-10,partly cloudy,clear,25,17,5
+2012-10-11,partly cloudy,clear,23,16,4
+2012-10-12,partly cloudy,partly cloudy,25,18,4
+2012-10-13,cloudy,cloudy,24,19,4
+2012-10-14,cloudy,partly cloudy,24,20,5
+2012-10-15,partly cloudy,clear,25,18,5
+2012-10-16,partly cloudy,light rain,26,17,5
+2012-10-17,partly cloudy,clear,21,14,5
+2012-10-18,clear,clear,21,12,4
+2012-10-19,clear,clear,23,16,4
+2012-10-20,partly cloudy,partly cloudy,25,20,4
+2012-10-21,partly cloudy,cloudy,25,19,5
+2012-10-22,thunder storm,light rain,23,13,5
+2012-10-23,clear,partly cloudy,21,16,4
+2012-10-24,partly cloudy,light rain,23,19,4
+2012-10-25,light rain,shower,23,19,4
+2012-10-26,cloudy,partly cloudy,26,20,5
+2012-10-27,shower,partly cloudy,24,16,4
+2012-10-28,partly cloudy,partly cloudy,23,17,5
+2012-10-29,partly cloudy,light rain,21,15,4
+2012-10-30,light rain,cloudy,18,11,5
+2012-10-31,partly cloudy,clear,17,9,5
+2012-11-01,clear,partly cloudy,17,12,4
+2012-11-02,partly cloudy,partly cloudy,18,14,4
+2012-11-03,light rain,thunder storm,21,10,5
+2012-11-04,clear,clear,17,8,5
+2012-11-05,clear,clear,16,7,5
+2012-11-06,clear,clear,17,6,4
+2012-11-07,clear,partly cloudy,18,9,4
+2012-11-08,light rain,light rain,18,15,4
+2012-11-09,rain,rain,17,15,5
+2012-11-10,small to moderate rain,light rain,19,10,5
+2012-11-11,partly cloudy,clear,14,6,5
+2012-11-12,clear,partly cloudy,15,6,4
+2012-11-13,clear,clear,17,8,5
+2012-11-14,clear,clear,15,7,4
+2012-11-15,partly cloudy,light rain,16,12,4
+2012-11-16,rain,light rain,15,9,5
+2012-11-17,clear,clear,15,6,5
+2012-11-18,clear,clear,16,7,4
+2012-11-19,clear,clear,16,11,5
+2012-11-20,partly cloudy,light rain,16,12,4
+2012-11-21,small to moderate rain,light rain,15,13,4
+2012-11-22,light rain,rain,16,9,5
+2012-11-23,light rain,partly cloudy,12,4,5
+2012-11-24,clear,light rain,12,8,4
+2012-11-25,rain,light rain,14,9,5
+2012-11-26,cloudy,partly cloudy,12,4,5
+2012-11-27,partly cloudy,partly cloudy,12,7,4
+2012-11-28,partly cloudy,light rain,15,9,4
+2012-11-29,partly cloudy,light rain,14,9,4
+2012-11-30,cloudy,cloudy,13,8,5
+2012-12-01,light rain,small to moderate rain,12,9,5
+2012-12-02,light rain,cloudy,12,7,4
+2012-12-03,partly cloudy,partly cloudy,12,3,5
+2012-12-04,clear,partly cloudy,10,5,4
+2012-12-05,partly cloudy,clear,11,1,5
+2012-12-06,clear,partly cloudy,9,3,4
+2012-12-07,clear,clear,13,2,5
+2012-12-08,partly cloudy,clear,10,-2,5
+2012-12-09,clear,partly cloudy,7,1,5
+2012-12-10,cloudy,partly cloudy,8,3,4
+2012-12-11,partly cloudy,partly cloudy,10,4,4
+2012-12-12,clear,clear,11,5,4
+2012-12-13,cloudy,light rain,14,13,5
+2012-12-14,light rain,shower,18,8,4
+2012-12-15,light rain,light rain,11,7,4
+2012-12-16,clear,clear,5,-1,4
+2012-12-17,cloudy,cloudy,10,2,5
+2012-12-18,cloudy,partly cloudy,6,-1,5
+2012-12-19,partly cloudy,partly cloudy,6,4,4
+2012-12-20,light rain,rain,11,8,5
+2012-12-21,cloudy,light rain,11,4,5
+2012-12-22,light rain,partly cloudy,7,-1,5
+2012-12-23,clear,clear,4,-3,5
+2012-12-24,clear,clear,4,0,4
+2012-12-25,partly cloudy,cloudy,8,5,5
+2012-12-26,light rain,light rain,7,5,4
+2012-12-27,rain,small to moderate rain,10,7,4
+2012-12-28,light rain,light rain,10,3,4
+2012-12-29,rain,light snow,7,-3,5
+2012-12-30,partly cloudy,clear,2,-4,5
+2012-12-31,clear,partly cloudy,4,-2,4

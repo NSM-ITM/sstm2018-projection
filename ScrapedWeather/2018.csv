@@ -1,0 +1,367 @@
+2018-01-01,clear,clear,11,6,3
+2018-01-01,clear,clear,11,6,3
+2018-01-02,cloudy,light rain,13,9,3
+2018-01-03,light rain,rain,9,5,4
+2018-01-04,rain,light rain,6,4,4
+2018-01-05,cloudy,partly cloudy,7,3,3
+2018-01-06,partly cloudy,light rain,9,4,3
+2018-01-07,light rain,light rain,11,4,5
+2018-01-08,cloudy,partly cloudy,4,-1,5
+2018-01-09,clear,clear,5,0,5
+2018-01-10,clear,clear,6,-1,4
+2018-01-11,clear,clear,5,-2,4
+2018-01-12,clear,clear,3,-2,5
+2018-01-13,clear,partly cloudy,7,-1,3
+2018-01-14,partly cloudy,partly cloudy,12,5,3
+2018-01-15,partly cloudy,light rain,15,6,3
+2018-01-16,light rain,light rain,14,8,3
+2018-01-17,partly cloudy,partly cloudy,14,6,3
+2018-01-18,partly cloudy,light rain,10,7,3
+2018-01-19,light rain,cloudy,10,7,3
+2018-01-20,cloudy,light rain,9,6,3
+2018-01-21,light rain,rain,9,7,3
+2018-01-22,partly cloudy,partly cloudy,12,4,4
+2018-01-23,partly cloudy,cloudy,8,2,4
+2018-01-24,cloudy,sleet,4,1,4
+2018-01-25,light snow,heavy snow,3,0,5
+2018-01-26,cloudy,sleet,2,0,5
+2018-01-27,light rain,light rain,3,1,3
+2018-01-28,light rain,cloudy,4,0,5
+2018-01-29,clear,partly cloudy,3,-2,3
+2018-01-30,clear,partly cloudy,5,-1,3
+2018-01-31,partly cloudy,clear,4,-1,3
+2018-02-01,clear,partly cloudy,6,1,3
+2018-02-02,partly cloudy,partly cloudy,7,-2,4
+2018-02-03,cloudy,partly cloudy,2,-3,5
+2018-02-04,partly cloudy,partly cloudy,4,-3,4
+2018-02-05,partly cloudy,partly cloudy,5,-2,3
+2018-02-06,clear,clear,4,-2,4
+2018-02-07,clear,clear,7,-1,5
+2018-02-08,clear,partly cloudy,6,1,3
+2018-02-09,partly cloudy,light rain,10,4,3
+2018-02-10,cloudy,partly cloudy,8,0,3
+2018-02-11,clear,partly cloudy,9,-1,5
+2018-02-12,clear,partly cloudy,7,0,5
+2018-02-13,clear,clear,12,3,3
+2018-02-14,partly cloudy,cloudy,17,7,3
+2018-02-15,light rain,light rain,9,5,5
+2018-02-16,partly cloudy,clear,11,3,3
+2018-02-17,clear,partly cloudy,11,6,3
+2018-02-18,light rain,rain,11,7,4
+2018-02-19,light rain,light rain,9,6,4
+2018-02-20,rain,light rain,9,6,4
+2018-02-21,cloudy,cloudy,9,5,4
+2018-02-22,clear,clear,15,4,4
+2018-02-23,clear,partly cloudy,15,6,4
+2018-02-24,light rain,light rain,13,8,5
+2018-02-25,partly cloudy,partly cloudy,11,4,5
+2018-02-26,clear,clear,13,6,3
+2018-02-27,partly cloudy,rain,16,12,5
+2018-02-28,light rain,partly cloudy,15,8,5
+2018-03-01,partly cloudy,light rain,14,7,5
+2018-03-02,light rain,light rain,12,7,5
+2018-03-03,cloudy,partly cloudy,18,11,4
+2018-03-04,light rain,light rain,24,7,5
+2018-03-05,light rain,partly cloudy,10,7,6
+2018-03-06,partly cloudy,light rain,11,7,4
+2018-03-07,light rain,light rain,10,7,5
+2018-03-08,cloudy,partly cloudy,11,3,4
+2018-03-09,clear,clear,11,4,3
+2018-03-10,clear,clear,14,6,3
+2018-03-11,partly cloudy,partly cloudy,17,8,5
+2018-03-12,partly cloudy,partly cloudy,20,13,4
+2018-03-13,clear,partly cloudy,24,14,4
+2018-03-14,cloudy,light rain,23,16,5
+2018-03-15,light rain,light rain,20,9,4
+2018-03-16,partly cloudy,partly cloudy,11,9,5
+2018-03-17,cloudy,partly cloudy,13,10,3
+2018-03-18,light rain,rain,15,10,4
+2018-03-19,light rain,light rain,11,7,5
+2018-03-20,light rain,light rain,10,6,4
+2018-03-21,light rain,partly cloudy,9,5,5
+2018-03-22,partly cloudy,partly cloudy,15,8,3
+2018-03-23,clear,clear,19,10,3
+2018-03-24,partly cloudy,partly cloudy,21,13,4
+2018-03-25,partly cloudy,partly cloudy,22,13,3
+2018-03-26,partly cloudy,partly cloudy,22,13,3
+2018-03-27,clear,partly cloudy,23,14,3
+2018-03-28,partly cloudy,partly cloudy,25,14,3
+2018-03-29,partly cloudy,partly cloudy,24,14,3
+2018-03-30,cloudy,partly cloudy,20,13,3
+2018-03-31,clear,partly cloudy,22,14,4
+2018-04-01,partly cloudy,partly cloudy,27,16,3
+2018-04-02,light rain,light rain,24,17,3
+2018-04-03,light rain,light rain,24,17,3
+2018-04-04,light rain,light rain,16,12,4
+2018-04-05,light rain,rain,16,11,5
+2018-04-06,partly cloudy,partly cloudy,16,7,5
+2018-04-07,clear,clear,14,7,4
+2018-04-08,clear,clear,21,12,4
+2018-04-09,clear,clear,26,16,4
+2018-04-10,partly cloudy,partly cloudy,29,17,4
+2018-04-11,cloudy,light rain,29,16,4
+2018-04-12,cloudy,light rain,21,15,5
+2018-04-13,light rain,light rain,20,15,4
+2018-04-14,light rain,partly cloudy,18,12,4
+2018-04-15,partly cloudy,partly cloudy,20,10,3
+2018-04-16,partly cloudy,clear,21,10,3
+2018-04-17,clear,clear,21,12,3
+2018-04-18,clear,clear,24,14,4
+2018-04-19,clear,clear,27,16,3
+2018-04-20,clear,partly cloudy,27,17,4
+2018-04-21,light rain,light rain,26,19,4
+2018-04-22,cloudy,cloudy,28,20,4
+2018-04-23,rain,light rain,24,13,6
+2018-04-24,cloudy,partly cloudy,16,12,4
+2018-04-25,clear,partly cloudy,22,13,3
+2018-04-26,partly cloudy,partly cloudy,22,15,3
+2018-04-27,partly cloudy,partly cloudy,27,15,3
+2018-04-28,partly cloudy,partly cloudy,26,18,4
+2018-04-29,light rain,cloudy,23,19,4
+2018-04-30,partly cloudy,partly cloudy,31,22,3
+2018-05-01,thunder storm,thunder storm,29,22,4
+2018-05-02,cloudy,partly cloudy,26,15,4
+2018-05-03,clear,clear,25,16,3
+2018-05-04,clear,partly cloudy,28,19,4
+2018-05-05,light rain,light rain,23,21,4
+2018-05-06,rain,light rain,28,20,5
+2018-05-07,cloudy,partly cloudy,21,15,4
+2018-05-08,partly cloudy,clear,24,15,3
+2018-05-09,partly cloudy,partly cloudy,25,16,3
+2018-05-10,partly cloudy,partly cloudy,23,17,4
+2018-05-11,partly cloudy,cloudy,26,19,5
+2018-05-12,light rain,light rain,28,21,4
+2018-05-13,partly cloudy,partly cloudy,29,21,3
+2018-05-14,partly cloudy,partly cloudy,31,23,3
+2018-05-15,partly cloudy,partly cloudy,34,25,4
+2018-05-16,clear,partly cloudy,36,26,4
+2018-05-17,thunder storm,thunder storm,35,24,4
+2018-05-18,light rain,cloudy,31,21,4
+2018-05-19,light rain,light rain,25,19,4
+2018-05-20,heavy rain,light rain,23,21,3
+2018-05-21,light rain,partly cloudy,28,20,5
+2018-05-22,light rain,clear,27,18,5
+2018-05-23,light rain,n/a,29,29,5
+2018-05-24,light rain,light rain,28,20,2
+2018-05-25,heavy rain,light rain,24,19,4
+2018-05-26,cloudy,cloudy,25,20,2
+2018-05-27,cloudy,partly cloudy,24,20,2
+2018-05-28,partly cloudy,partly cloudy,29,22,3
+2018-05-29,light rain,cloudy,26,21,3
+2018-05-30,light rain,light rain,25,19,3
+2018-05-31,light rain,partly cloudy,21,18,4
+2018-06-01,clear,clear,26,16,3
+2018-06-02,clear,light rain,26,17,3
+2018-06-03,partly cloudy,clear,26,17,3
+2018-06-04,partly cloudy,cloudy,28,22,2
+2018-06-05,cloudy,cloudy,27,21,2
+2018-06-06,partly cloudy,partly cloudy,29,22,4
+2018-06-07,partly cloudy,cloudy,29,22,2
+2018-06-08,partly cloudy,cloudy,28,22,2
+2018-06-09,light rain,light rain,26,21,2
+2018-06-10,light rain,partly cloudy,25,21,2
+2018-06-11,partly cloudy,partly cloudy,31,22,5
+2018-06-12,clear,clear,33,23,4
+2018-06-13,clear,clear,34,23,4
+2018-06-14,partly cloudy,partly cloudy,30,22,3
+2018-06-15,partly cloudy,partly cloudy,30,22,3
+2018-06-16,partly cloudy,partly cloudy,29,22,2
+2018-06-17,partly cloudy,partly cloudy,28,23,4
+2018-06-18,cloudy,light rain,31,25,4
+2018-06-19,shower,shower,33,25,2
+2018-06-20,rain,partly cloudy,26,22,5
+2018-06-21,partly cloudy,cloudy,29,23,3
+2018-06-22,light rain,light rain,25,22,4
+2018-06-23,cloudy,partly cloudy,24,20,3
+2018-06-24,light rain,cloudy,28,23,4
+2018-06-25,cloudy,partly cloudy,33,25,2
+2018-06-26,clear,partly cloudy,37,28,2
+2018-06-27,partly cloudy,partly cloudy,36,28,2
+2018-06-28,light rain,rain,34,26,3
+2018-06-29,light rain,rain,34,26,4
+2018-06-30,heavy rain,light rain,29,26,5
+2018-07-01,light rain,cloudy,29,25,2
+2018-07-02,cloudy,cloudy,31,26,3
+2018-07-03,shower,partly cloudy,29,26,2
+2018-07-04,light rain,light rain,32,26,3
+2018-07-05,rain,light rain,29,25,2
+2018-07-06,light rain,cloudy,30,26,4
+2018-07-07,light rain,light rain,28,25,2
+2018-07-07,light rain,light rain,28,25,2
+2018-07-08,cloudy,partly cloudy,33,27,2
+2018-07-09,partly cloudy,partly cloudy,34,27,4
+2018-07-10,partly cloudy,partly cloudy,33,27,5
+2018-07-11,cloudy,cloudy,32,27,6
+2018-07-12,partly cloudy,partly cloudy,33,27,6
+2018-07-13,partly cloudy,partly cloudy,35,27,2
+2018-07-14,clear,partly cloudy,34,26,4
+2018-07-15,partly cloudy,partly cloudy,34,27,4
+2018-07-16,partly cloudy,partly cloudy,34,27,4
+2018-07-17,partly cloudy,partly cloudy,34,27,5
+2018-07-18,partly cloudy,partly cloudy,35,27,3
+2018-07-19,clear,clear,34,27,4
+2018-07-20,cloudy,cloudy,35,27,5
+2018-07-21,cloudy,heavy rain,32,26,5
+2018-07-22,heavy rain,light rain,29,26,7
+2018-07-23,cloudy,cloudy,33,27,6
+2018-07-24,light rain,partly cloudy,33,28,4
+2018-07-25,light rain,cloudy,36,28,2
+2018-07-26,thunder storm,cloudy,37,28,3
+2018-07-27,thunder storm,partly cloudy,35,27,2
+2018-07-28,thunder storm,partly cloudy,36,28,4
+2018-07-29,partly cloudy,partly cloudy,36,28,4
+2018-07-30,partly cloudy,partly cloudy,35,28,2
+2018-07-31,partly cloudy,partly cloudy,35,28,4
+2018-08-01,cloudy,cloudy,34,27,3
+2018-08-02,light rain,heavy rain,33,27,5
+2018-08-03,shower,partly cloudy,29,27,5
+2018-08-04,partly cloudy,partly cloudy,35,28,5
+2018-08-05,partly cloudy,clear,35,28,4
+2018-08-06,cloudy,partly cloudy,36,28,3
+2018-08-07,clear,clear,36,28,2
+2018-08-08,partly cloudy,partly cloudy,35,27,2
+2018-08-09,clear,partly cloudy,36,28,3
+2018-08-10,partly cloudy,partly cloudy,36,28,3
+2018-08-11,clear,cloudy,35,28,4
+2018-08-12,rain,heavy rain,29,26,7
+2018-08-13,cloudy,cloudy,33,28,5
+2018-08-14,light rain,light rain,34,28,5
+2018-08-15,cloudy,light rain,33,28,4
+2018-08-16,rain,heavy rain,32,26,7
+2018-08-17,rain,light rain,29,26,5
+2018-08-18,cloudy,partly cloudy,32,27,5
+2018-08-19,partly cloudy,partly cloudy,33,28,4
+2018-08-20,partly cloudy,shower,34,27,4
+2018-08-21,thunder storm,partly cloudy,29,27,4
+2018-08-22,partly cloudy,partly cloudy,33,27,5
+2018-08-23,partly cloudy,partly cloudy,33,25,5
+2018-08-24,partly cloudy,light rain,32,26,2
+2018-08-25,shower,shower,29,26,4
+2018-08-26,light rain,cloudy,29,27,4
+2018-08-27,partly cloudy,partly cloudy,33,27,5
+2018-08-28,partly cloudy,partly cloudy,33,27,6
+2018-08-29,partly cloudy,partly cloudy,32,27,5
+2018-08-30,partly cloudy,partly cloudy,33,27,2
+2018-08-31,shower,partly cloudy,34,27,2
+2018-09-01,rain,cloudy,32,27,2
+2018-09-02,thunder storm,partly cloudy,33,27,2
+2018-09-03,light rain,light rain,35,27,2
+2018-09-04,partly cloudy,partly cloudy,32,24,5
+2018-09-05,clear,partly cloudy,32,26,2
+2018-09-06,cloudy,rain,32,24,2
+2018-09-07,light rain,light rain,25,22,4
+2018-09-08,shower,partly cloudy,26,22,4
+2018-09-09,partly cloudy,partly cloudy,29,22,5
+2018-09-10,partly cloudy,cloudy,27,23,4
+2018-09-11,light rain,light rain,27,24,5
+2018-09-12,light rain,light rain,28,25,2
+2018-09-13,light rain,partly cloudy,29,24,2
+2018-09-14,partly cloudy,partly cloudy,31,25,2
+2018-09-15,partly cloudy,partly cloudy,32,25,4
+2018-09-16,rain,rain,32,25,4
+2018-09-17,thunder storm,shower,27,24,4
+2018-09-18,light rain,cloudy,30,26,4
+2018-09-19,thunder storm,partly cloudy,33,27,2
+2018-09-20,thunder storm,shower,33,25,4
+2018-09-21,light rain,light rain,27,23,4
+2018-09-22,light rain,clear,28,22,2
+2018-09-23,clear,clear,27,21,4
+2018-09-24,clear,partly cloudy,28,21,4
+2018-09-25,partly cloudy,partly cloudy,26,21,5
+2018-09-26,partly cloudy,partly cloudy,27,22,5
+2018-09-27,cloudy,clear,28,20,2
+2018-09-28,partly cloudy,partly cloudy,27,21,4
+2018-09-29,partly cloudy,partly cloudy,27,21,5
+2018-09-30,clear,clear,28,19,5
+2018-10-01,clear,clear,25,18,5
+2018-10-02,clear,clear,25,18,2
+2018-10-03,clear,clear,25,20,2
+2018-10-04,partly cloudy,shower,26,20,5
+2018-10-05,light rain,cloudy,22,19,6
+2018-10-06,partly cloudy,partly cloudy,26,19,5
+2018-10-07,partly cloudy,partly cloudy,26,19,4
+2018-10-08,clear,partly cloudy,25,19,4
+2018-10-09,partly cloudy,light rain,24,18,2
+2018-10-10,cloudy,partly cloudy,21,16,2
+2018-10-11,partly cloudy,partly cloudy,21,15,4
+2018-10-12,partly cloudy,partly cloudy,21,15,2
+2018-10-13,partly cloudy,partly cloudy,22,17,2
+2018-10-14,cloudy,partly cloudy,22,18,2
+2018-10-15,partly cloudy,light rain,23,18,2
+2018-10-16,light rain,partly cloudy,19,15,2
+2018-10-17,partly cloudy,partly cloudy,22,16,4
+2018-10-18,partly cloudy,partly cloudy,21,13,6
+2018-10-19,partly cloudy,partly cloudy,21,16,2
+2018-10-20,partly cloudy,partly cloudy,20,16,2
+2018-10-21,light rain,light rain,22,17,2
+2018-10-22,light rain,partly cloudy,19,16,2
+2018-10-23,clear,partly cloudy,22,17,6
+2018-10-24,partly cloudy,clear,23,17,2
+2018-10-25,light rain,light rain,23,17,2
+2018-10-26,partly cloudy,clear,22,12,4
+2018-10-27,clear,clear,20,12,4
+2018-10-28,clear,clear,22,14,2
+2018-10-29,clear,clear,24,15,2
+2018-10-30,partly cloudy,partly cloudy,23,14,2
+2018-10-31,partly cloudy,partly cloudy,19,13,2
+2018-11-01,partly cloudy,partly cloudy,19,14,2
+2018-11-02,partly cloudy,cloudy,20,16,2
+2018-11-03,light rain,partly cloudy,20,17,2
+2018-11-04,partly cloudy,partly cloudy,23,18,2
+2018-11-05,light rain,light rain,22,17,4
+2018-11-06,light rain,rain,21,17,2
+2018-11-07,light rain,light rain,19,13,2
+2018-11-08,light rain,clear,14,10,6
+2018-11-09,clear,partly cloudy,18,12,2
+2018-11-10,partly cloudy,light rain,19,12,4
+2018-11-11,partly cloudy,light rain,21,15,6
+2018-11-12,light rain,partly cloudy,17,13,2
+2018-11-13,partly cloudy,partly cloudy,18,12,2
+2018-11-14,partly cloudy,partly cloudy,19,13,2
+2018-11-15,light rain,light rain,18,15,2
+2018-11-16,light rain,partly cloudy,17,13,6
+2018-11-17,partly cloudy,light rain,17,13,2
+2018-11-18,light rain,light rain,13,10,2
+2018-11-19,partly cloudy,partly cloudy,15,10,2
+2018-11-20,partly cloudy,light rain,17,12,2
+2018-11-21,light rain,partly cloudy,15,10,4
+2018-11-22,partly cloudy,partly cloudy,15,9,2
+2018-11-23,partly cloudy,clear,17,11,2
+2018-11-24,partly cloudy,partly cloudy,19,11,2
+2018-11-25,partly cloudy,partly cloudy,19,12,2
+2018-11-26,partly cloudy,partly cloudy,20,13,2
+2018-11-27,partly cloudy,partly cloudy,19,13,2
+2018-11-28,partly cloudy,partly cloudy,17,12,2
+2018-11-29,partly cloudy,partly cloudy,18,12,4
+2018-11-30,cloudy,partly cloudy,19,13,2
+2018-12-01,partly cloudy,partly cloudy,20,14,2
+2018-12-02,rain,partly cloudy,21,15,2
+2018-12-03,light rain,rain,19,14,2
+2018-12-04,light rain,light rain,16,11,5
+2018-12-05,light rain,rain,14,10,4
+2018-12-06,light rain,light rain,11,7,6
+2018-12-07,light rain,light rain,8,3,6
+2018-12-08,light rain,sleet,5,2,6
+2018-12-09,light rain,light rain,9,2,2
+2018-12-10,light rain,rain,10,8,4
+2018-12-11,light rain,partly cloudy,9,3,2
+2018-12-12,partly cloudy,partly cloudy,8,3,2
+2018-12-13,partly cloudy,partly cloudy,8,3,2
+2018-12-14,partly cloudy,partly cloudy,9,4,2
+2018-12-15,light rain,light rain,11,7,2
+2018-12-16,partly cloudy,clear,9,3,2
+2018-12-17,clear,clear,12,3,2
+2018-12-18,clear,partly cloudy,15,6,2
+2018-12-19,cloudy,light rain,15,10,2
+2018-12-20,light rain,partly cloudy,14,10,4
+2018-12-21,partly cloudy,light rain,15,11,2
+2018-12-22,light rain,light rain,14,10,2
+2018-12-23,partly cloudy,clear,12,6,5
+2018-12-24,partly cloudy,partly cloudy,12,8,2
+2018-12-25,partly cloudy,light rain,13,10,2
+2018-12-26,light rain,light rain,10,5,6
+2018-12-27,cloudy,partly cloudy,8,2,6
+2018-12-28,partly cloudy,partly cloudy,3,-1,5
+2018-12-29,partly cloudy,partly cloudy,4,-1,5
+2018-12-30,light rain,sleet,4,1,2
+2018-12-31,partly cloudy,partly cloudy,5,1,2
