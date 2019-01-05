@@ -27,7 +27,7 @@ Hypothetical assumption of this analysis is that weather condition could affect 
 ```
 http://www.tianqihoubao.com/lishi/shanghai
 ```
-Web scraper was written in Python 3. Please refer to Jupyter Notebook "Weather Scraper.ipynb" for more information. Daily weather data of each year would be saved in each file win following format:
+Web scraper was written in Python 3. Please refer to Jupyter Notebook *"Weather Scraper.ipynb"* for more information. Daily weather data of each year would be saved in each file win following format:
 
 ```
 Scraped Weather Data
@@ -45,7 +45,7 @@ Real Visitor Data
 -------------------------
 ```
 
-Mapping script was written in Python 3. Please refer to Jupyter Notebook "DataPrep-Mapping.ipynb" for more information. Final data for modeling process is composed of following columns.
+Mapping script was written in Python 3. Please refer to Jupyter Notebook *"DataPrep-Mapping.ipynb"* for more information. Final data for modeling process is composed of following columns.
 ```
 date
 minTemp
@@ -81,7 +81,7 @@ In order to project future value of a dataset from a given set od features, many
 
 ### Prediction
 
-All models will be newly generated each time the application is launched. As of now, according to the available data (3 years), the start up process normally takes less than 1 minute. Once models are generated "Model Preview" shows the overall prediction result from each model in comparison with real visitor data. User can manually input the data for individual prediction in "Model Projection" . For statistical reliability analysis, technical information of each model is shown in "Model Description" .
+All models will be newly generated each time the application is launched. As of now, according to the available data (3 years), the start up process normally takes less than 1 minute. Once models are generated *"Model Preview"* shows the overall prediction result from each model in comparison with real visitor data. User can manually input the data for individual prediction in *"Model Projection"* . For statistical reliability analysis, technical information of each model is shown in *"Model Description"*.
 
 * As per the philosophy of rapid prototyping schema, this prototype is merely created for a demonstration of basic predictive analytic pipeline. Therefore, models are not, by any means, finely configured for better accuracy or tuned for better prediction performance.
 
