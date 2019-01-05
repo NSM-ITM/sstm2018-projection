@@ -1,0 +1,12 @@
+name: BasicProjection-WebApp
+title: BasicProjection-WebApp
+username:
+account: wachiraphc
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 627279
+bundleId: 1797781
+url: https://wachiraphc.shinyapps.io/BasicProjection-WebApp/
+when: 1546679917.06217
+asMultiple: FALSE
+asStatic: FALSE
