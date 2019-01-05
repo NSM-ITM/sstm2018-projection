@@ -1,4 +1,5 @@
 # Shanghai Science and Technology Museum - Visitor Prediction Prototype
+SSTM - National Science Museum, Thailand Staff Exchange Program 2018
 
 ## Prediction Pipeline
 Prediction pipeline in this application can be depiected as follows:
