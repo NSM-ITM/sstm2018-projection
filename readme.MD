@@ -16,6 +16,7 @@ Weather Data Website
 ```
                  
 This predictive analysis prototype demonstrates the possibility to utilize collected data and create the basic future projection of some specific data dimensions. Also, it is an example of data science product development with rapid prototyping methodology which involves various kinds of data and multidisciplinary skills; delivered as part of SSTM-NSM staff exchange program 2018.
+[Prediction App](https://wachiraphc.shinyapps.io/SSTM2018-VisitorProjection/) - usually takes 1 minutes for first launch/refresh
 
 ## Data Preparation
 ### Weather Data Scraper
