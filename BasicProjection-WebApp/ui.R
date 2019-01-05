@@ -10,7 +10,7 @@ maxTemp <- 50
 minWind <- 0
 maxWind <- 8
 
-addResourcePath("img", "BasicProjection-WebApp/img")
+#addResourcePath("img", "BasicProjection-WebApp/img")
 
 # ====================================================================
 # User Interface
@@ -22,6 +22,18 @@ ui <- fluidPage(
     tabPanel("Introduction", 
              
              h2('Prediction Pipeline'),
+             p('Prediction pipeline in this application can be depiected as follows:'),
+             pre('
+Weather Data Website 
+        \\
+          [Web Scrapper - PY] 
+                \\
+              Weather Data --
+                              \\
+                               --> [Data Mapping - PY] --> [Data Modeling & Prediction - R]
+                              /
+        Real Visitor Data ---
+                 '),
              p('This predictive analysis prototype demonstrates the possibility to utilize collected data 
                 and create the basic future projection of some specific data dimensions. Also, it is an 
                 example of data science product development with rapid prototyping methodology which
@@ -54,7 +66,7 @@ Real Visitor Data
 -------------------------
 | Date |  Visitor Count |
 -------------------------'),
-               'Mapping script was written a Python 3. Please refer to Jupyter Notebook ',
+               'Mapping script was written in Python 3. Please refer to Jupyter Notebook ',
                strong(em('"DataPrep-Mapping.ipynb"')),
                ' for more information. Final data for modeling process is composed of following columns.',
                pre('
@@ -93,8 +105,18 @@ OverMonthlyAverage'),
                 tags$li('Artificial Neural Network')),
                 
              h4('Prediction'),
-             p('Prediction pipeline in this application can be depiected as follows:'),
-             pre('')
+             div('All models will be newly generated each time the application is launched. 
+                As of now, according to the available data (3 years), the start up process 
+                normally takes less than 1 minute. Once models are generated', strong('"Model Preview"'),
+                ' shows the overall prediction result from each model in comparison with 
+                real visitor data. User can manually input the data for individual prediction in ',
+                strong('"Model Projection"'), '. For statistical reliability analysis, technical 
+                information of each model is shown in', strong('"Model Description"'), '.'
+             ),
+              br(),
+              div('* As per the philosophy of rapid prototyping schema, this prototype is merely created for a demonstration 
+                  of basic predictive analytic pipeline. Therefore, models are not, by any means, finely configured for better accuracy or
+                  tuned for better prediction performance.')
     ), 
     
     tabPanel("Model Preview", 

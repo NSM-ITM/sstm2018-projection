@@ -10,7 +10,7 @@ library(RColorBrewer)
 
 # Server Functions
 readData <- function() {
-  setwd('/Users/Png/Desktop/SSTM2018/workspace/Projection')
+  #setwd('/Users/Png/Desktop/SSTM2018/workspace/Projection')
   tableData <- read.csv('PrepData.csv', header = TRUE)
   
   minimumVisitorTotal <- 500   
@@ -252,7 +252,7 @@ server <- function(input, output) {
   generateLM()
   generateRPART()
   generateRandomForest()
-  #generateANN()
+  generateANN()
   
   
   # output rendering
