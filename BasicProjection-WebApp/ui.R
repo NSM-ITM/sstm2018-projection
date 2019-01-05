@@ -39,7 +39,7 @@ Weather Data Website
                 example of data science product development with rapid prototyping methodology which
                 involves various kinds of data and multidisciplinary skills; delivered as part of 
                 SSTM-NSM staff exchange program 2018.'),
-             
+             div('More information on source code, please vist: ', a('Github Repository', href='https://github.com/NSM-ITM/sstm2018-projection')),
              h3('Data Preparation'),
              h4('Weather Data Scraper'),
              p('Hypothetical assumption of this analysis is that weather condition could affect the number of
