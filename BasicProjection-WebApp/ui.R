@@ -48,7 +48,7 @@ Weather Data Website
              div( 
                'Web scraper was written in Python 3. Please refer to Jupyter Notebook ',
                 strong(em('"Weather Scraper.ipynb"')),
-              ' for more information. Daily weather data of each year would be saved in each file win following format:',
+              ' for more information. Daily weather data of each year would be saved in each file with following format:',
               #p(img(src = 'img/Introduction-1.png', width="40%")),
               pre('
 Scraped Weather Data

@@ -27,7 +27,7 @@ Hypothetical assumption of this analysis is that weather condition could affect 
 ```
 http://www.tianqihoubao.com/lishi/shanghai
 ```
-Web scraper was written in Python 3. Please refer to Jupyter Notebook *"Weather Scraper.ipynb"* for more information. Daily weather data of each year would be saved in each file win following format:
+Web scraper was written in Python 3. Please refer to Jupyter Notebook *"Weather Scraper.ipynb"* for more information. Daily weather data of each year would be saved in each file with following format:
 
 ```
 Scraped Weather Data
