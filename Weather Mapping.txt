@@ -1,0 +1,31 @@
+{
+'晴': "clear",
+
+'多云': "partly cloudy",
+'阴': "cloudy",
+
+'小雨': "light rain",
+'中雨': "rain",
+'阵雨': "shower",
+'小到中雨': "small to moderate rain",
+'中到大雨': "medium to heavy rain",
+
+'雨夹雪': "sleet",		# rain = 1 snow = 1
+
+'小到中雪': "small to medium snow",
+'小雪': "light snow",
+'大雪': "heavy snow",
+'中到大雪': "medium to heavy snow",
+
+'暴雨': "rainstorm",		# rain = 1 storm = 1
+'大雨': "heavy rain",	# rain = 1 storm = 1
+'大到暴雨': "heavy rain",		# rain = 1 storm = 1
+'雷阵雨': "thunder storm",		# rain = 1 storm = 1
+
+'雾': "fog",		# all 0
+
+'-': "n/a",		# all 0
+
+'': "n/a"		# all 0
+}
+
