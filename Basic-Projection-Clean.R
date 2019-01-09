@@ -20,6 +20,7 @@ library(tidyverse)
 library(neuralnet)
 library(GGally)
 library(RColorBrewer)
+library(dplyr)
 
 # Functions
 readData <- function() {
