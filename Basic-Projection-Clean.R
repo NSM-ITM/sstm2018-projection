@@ -1,16 +1,32 @@
+# Basic Projection - Clean
+#                                         |
+# Run following commands in one direction |
+#                                         V
+
+
+# set working directory - location of PrepData.Csv
+setwd('/Users/Png/Desktop/SSTM2018/workspace/Projection')
+
+
+# Highlight-1 -> Define Functions - & read data
+# =========================================================
+# Start Highlight-1
+# =========================================================
+# Import Library
 library(rpart)
 library(randomForest)
 library(mgcv)
+library(tidyverse)
 library(neuralnet)
 library(GGally)
 library(RColorBrewer)
 
-# Server Functions
+# Functions
 readData <- function() {
-  #setwd('/Users/Png/Desktop/SSTM2018/workspace/Projection')
+  
   tableData <- read.csv('PrepData.csv', header = TRUE)
   
-  minimumVisitorTotal <- 500   
+  minimumVisitorTotal <- 500      # minimum number of visitors to consider
   newTableData <<- subset(tableData, tableData[ , "visitorTotal"] >= minimumVisitorTotal) 
   newTableData$avgTemp <<- (newTableData$minTemp + newTableData$maxTemp) / 2
   newTableData$date <<- as.Date(newTableData$date)
@@ -20,9 +36,9 @@ readData <- function() {
   
   baseData <<- newTableData
 }
+readData()      # define readData() and immediately import data
 
-# Model Generation
-
+# Model Generation - Adjust Model Parameters, if necessary
 generateLM <- function() {
   # convert categorical data (binary)
   lmData <- newTableData
@@ -238,125 +254,103 @@ predictANN <- function(predictingCondition) {
   predictedVisitor <<- pred.NN1_
 }
 
+# =========================================================
+# End Highlight-1 
+# =========================================================
 
-# ====================================================================
-# Server Logic
-server <- function(input, output) {
-  
-  # prepare date for models
-  readData()  # newTableData is now global var - don't modify
-  
-  generateLM()
-  generateRPART()
-  generateRandomForest()
-  generateANN()
-  
-  
-  # output rendering
-  # Model Preview
-  output$plotPreview <- renderPlot({
-    
-    startDate <<- input$dates[1]
-    endDate <<- input$dates[2]
-    
-    modifyDateRange(startDate, endDate)
-    
-    # plot base graph from whole data
-    generateBasePlot()
-    
-    if(input$lm)
-      plotPreviewLM()
-    
-    if(input$rpart)
-      plotPreviewRPART()
-    
-    if(input$rf)
-      plotPreviewRandomForest()
-    
-    if(input$ann)
-      plotPreviewANN()
-    
-  })
-  
-  # Projection
-  output$plotPredict <- renderPlot({      
+# if no error occurs, proceed to Highlight-2
 
-    predictingCondition <- data.frame(
-      visitorTotal = 0,
-      avgTemp = input$avgTemp,
-      storm = ifelse(input$storm, 1, 0),
-      snow = ifelse(input$snow, 1, 0),
-      rain = ifelse(input$rain, 1, 0),
-      cloudy = ifelse(input$cloudy, 1, 0),
-      wind = input$wind,
-      weekend = ifelse(input$weekend, 1, 0),
-      holiday = ifelse(input$holiday, 1, 0)
-    )
-    
-    #input$model
-    #input$avgTemp
-    #input$cloudy
-    #input$rain
-    #input$storm
-    #input$snow
-    #input$weekend
-    #input$holiday
-    
-    factoredPredictingCondition <- predictingCondition
-    
-    # assigning value with proper levels
-    factoredPredictingCondition$Fcloudy <- factor(factoredPredictingCondition$cloudy, levels = c(0,1))
-    factoredPredictingCondition$Frain <- factor(factoredPredictingCondition$rain, levels = c(0,1))
-    factoredPredictingCondition$Fsnow <- factor(factoredPredictingCondition$snow, levels = c(0,1))
-    factoredPredictingCondition$Fstorm <- factor(factoredPredictingCondition$storm, levels = c(0,1))
-    factoredPredictingCondition$Fweekend <- factor(factoredPredictingCondition$weekend, levels = c(0,1))
-    factoredPredictingCondition$Fholiday <- factor(factoredPredictingCondition$holiday, levels = c(0,1))
-    
-    
-    #switch (input$model,
-    #        'Linear Regression' = predictLM(factoredPredictingCondition),
-    #        'Recursive Partitioning' = predictRPART(factoredPredictingCondition),
-    #        'Random Forest' = predictRandomForest(factoredPredictingCondition),
-    #        'Artificial Nueral Network' = predictANN(predictingCondition)
-    #)
-    #paste(as.integer(predictedVisitor))
-    
-    plm <- predictLM(factoredPredictingCondition)
-    prpart <- predictRPART(factoredPredictingCondition)
-    prf <- predictRandomForest(factoredPredictingCondition)
-    pann <- predictANN(predictingCondition)
-    
-    #H <- c(plm, prpart, prf)
-    H <- c(plm, prpart, prf, pann)
-    #M <- c("Linear Regression", "Recursive Partitioning", "Random Forest")
-    M <- c("Linear Regression", "Recursive Partitioning", "Random Forest", "Artificial Neural Network")
-    
-    colPallete <- brewer.pal(n = 8, name = "Paired")
-    colPalleteSelection = c(colPallete[2], colPallete[4], colPallete[6], colPallete[8])
-    
-    barP <- barplot(H, names.arg=M, xlab="Models", ylab="Prospective Visitors", 
+# Highlight-2 -> Create Models (Data is imported in Highlight-1)
+# =========================================================
+# Start Highlight-2
+# =========================================================
+generateLM()
+generateRPART()
+generateRandomForest()
+generateANN()
+
+# =========================================================
+# End Highlight-2
+# =========================================================
+
+
+# if no error occurs, proceed to Plot Prediction Preview
+# if error occurs from Neural Network, random training data is invalid -- try again
+
+
+# =========================================================
+# Plot Prediction Preview - line by line
+# =========================================================
+startDate <<- '2016-10-10'    # define start date range
+endDate <<- '2018-10-10'      # define end date range
+
+modifyDateRange(startDate, endDate)   # modify date range in data
+
+generateBasePlot()              #   plot real data
+plotPreviewLM()                 #   plot Linear Regression prediction
+plotPreviewRPART()              #   plot Recursive Partitioning prediction
+plotPreviewRandomForest()       #   plot Random Forest prediction
+plotPreviewANN()                #   plot Artificial Neural Network prediction
+
+# =========================================================
+# Use Models to Predict New Data
+# =========================================================
+
+# Define new Data
+predictingCondition <- data.frame(            # define data
+  visitorTotal = 0,                           # always 0
+  avgTemp = 20,                               # average temperature
+  storm = 0,                                  # 1 or 0
+  snow = 0,                                   # 1 or 0
+  rain = 0,                                   # 1 or 0
+  cloudy = 0,                                 # 1 or 0
+  wind = 2,                                   # wind speed 0 ... n
+  weekend = 0,                                # 1 or 0
+  holiday = 0                                 # 1 or 0
+)
+
+
+# Convert data format - run line by line
+factoredPredictingCondition <- predictingCondition      
+factoredPredictingCondition$Fcloudy <- factor(factoredPredictingCondition$cloudy, levels = c(0,1))
+factoredPredictingCondition$Frain <- factor(factoredPredictingCondition$rain, levels = c(0,1))
+factoredPredictingCondition$Fsnow <- factor(factoredPredictingCondition$snow, levels = c(0,1))
+factoredPredictingCondition$Fstorm <- factor(factoredPredictingCondition$storm, levels = c(0,1))
+factoredPredictingCondition$Fweekend <- factor(factoredPredictingCondition$weekend, levels = c(0,1))
+factoredPredictingCondition$Fholiday <- factor(factoredPredictingCondition$holiday, levels = c(0,1))
+
+# =========================================================
+# Use New Data and Models to Predict
+# =========================================================
+plm <- predictLM(factoredPredictingCondition)
+prpart <- predictRPART(factoredPredictingCondition)
+prf <- predictRandomForest(factoredPredictingCondition)
+pann <- predictANN(predictingCondition)
+
+
+# =========================================================
+# Prepare to plot graph
+# =========================================================
+H <- c(plm, prpart, prf, pann)
+M <- c("Linear Regression", "Recursive Partitioning", "Random Forest", "Artificial Neural Network")
+colPallete <- brewer.pal(n = 8, name = "Paired")
+colPalleteSelection = c(colPallete[2], colPallete[4], colPallete[6], colPallete[8])
+
+# Plot Graph
+barP <- barplot(H, names.arg=M, xlab="Models", ylab="Prospective Visitors", 
                 col= colPalleteSelection)
-    text(x = barP, y = H / 2,labels=as.integer(H),cex=1)
-    
-  })
-  
-  output$lmSummary <- renderPrint({  
-    summary(lm1)
-  })
-  
-  output$rpartSummary <- renderPrint({  
-    summary(rpart1)
-  })
-  
-  output$rfSummary <- renderPrint({  
-    rf1
-  })
-  
-  output$annSummary <- renderPrint({  
-    ann1
-  })
-  
-  output$annPlot <- renderPlot({      
-    plot(ann1)
-  })
-}
+text(x = barP, y = H / 2,labels=as.integer(H),cex=1)
+
+
+# =========================================================
+# Model Description - Statistical Data
+# =========================================================
+summary(lm1)              # Linear Regression
+summary(rpart1)           # Recursive Partitioning
+rf1                       # Random Forest
+ann1                      # Artificial Neural Network
+plot(ann1)                # Plot ANN graph
+
+
+
+

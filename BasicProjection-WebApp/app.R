@@ -8,6 +8,7 @@
 
 library(shiny)
 
+setwd('Desktop/SSTM2018/workspace/Projection/BasicProjection-WebApp/')
 source("ui.R")
 source("server.R")
 
