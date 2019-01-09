@@ -115,8 +115,15 @@ generateANN <- function() {
   trainData = trainData[, c('visitorTotal', 'avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')]
   testData = testData[, c('visitorTotal', 'avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')]
   
+  # auto min-max for scale
   train.colmins = apply(trainData,2,min)
   train.colmaxs = apply(testData,2,max)
+  train.colmaxs['storm'] <- 1
+  train.colmaxs['snow'] <- 1
+  train.colmaxs['rain'] <- 1
+  train.colmaxs['cloudy'] <- 1
+  train.colmaxs['weekend'] <- 1
+  train.colmaxs['holiday'] <- 1
   
   # scale data down to [0, 1]
   scaled.train = as.data.frame(scale(trainData,center = train.colmins, scale = train.colmaxs - train.colmins))
@@ -209,6 +216,12 @@ plotPreviewANN <- function() {
   # scale down [0, 1]
   data.colmins = apply(croppedANNData,2,min)
   data.colmaxs = apply(croppedANNData,2,max)
+  data.colmaxs['storm'] <- 1
+  data.colmaxs['snow'] <- 1
+  data.colmaxs['rain'] <- 1
+  data.colmaxs['cloudy'] <- 1
+  data.colmaxs['weekend'] <- 1
+  data.colmaxs['holiday'] <- 1
   
   scaled.data = as.data.frame(scale(croppedANNData, center = data.colmins, scale = data.colmaxs - data.colmins))
   
@@ -242,6 +255,13 @@ predictANN <- function(predictingCondition) {
   # scale down [0, 1]
   data.colmins = apply(croppedANNData,2,min)
   data.colmaxs = apply(croppedANNData,2,max)
+  data.colmaxs['storm'] <- 1
+  data.colmaxs['snow'] <- 1
+  data.colmaxs['rain'] <- 1
+  data.colmaxs['cloudy'] <- 1
+  data.colmaxs['weekend'] <- 1
+  data.colmaxs['holiday'] <- 1
+  
   
   scaled.data = as.data.frame(scale(predictingCondition, center = data.colmins, scale = data.colmaxs - data.colmins))
   
@@ -275,7 +295,6 @@ generateANN()
 
 
 # if no error occurs, proceed to Plot Prediction Preview
-# if error occurs from Neural Network, random training data is invalid -- try again
 
 
 # =========================================================
