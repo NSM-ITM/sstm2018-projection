@@ -5,6 +5,7 @@ library(neuralnet)
 library(GGally)
 library(RColorBrewer)
 library(dplyr)
+library(rlang)
 
 # Server Functions
 readData <- function() {
@@ -209,7 +210,7 @@ plotPreviewANN <- function() {
   
   scaled.data = as.data.frame(scale(croppedANNData, center = data.colmins, scale = data.colmaxs - data.colmins))
   
-  pred.NN1 = compute(ann1, scaled.data[,c('avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')])
+  pred.NN1 = neuralnet::compute(ann1, scaled.data[,c('avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')])
   
   # scale back
   pred.NN1_ = pred.NN1$net.result * (max(newTableData$visitorTotal) - min(newTableData$visitorTotal)) + min(newTableData$visitorTotal)
@@ -248,7 +249,7 @@ predictANN <- function(predictingCondition) {
   
   scaled.data = as.data.frame(scale(predictingCondition, center = data.colmins, scale = data.colmaxs - data.colmins))
   
-  pred.NN1 = compute(ann1, scaled.data[,c('avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')])
+  pred.NN1 = neuralnet::compute(ann1, scaled.data[,c('avgTemp', 'storm', 'snow', 'rain', 'cloudy', 'wind', 'weekend', 'holiday')])
   
   # scale back
   pred.NN1_ = pred.NN1$net.result * (max(newTableData$visitorTotal) - min(newTableData$visitorTotal)) + min(newTableData$visitorTotal)
