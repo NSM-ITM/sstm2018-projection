@@ -23,7 +23,7 @@ For live preview, please visit: [Prediction App](https://wachiraphc.shinyapps.io
 ## Data Preparation
 ### Weather Data Scraper
 
-Hypothetical assumption of this analysis is that weather condition could affect the number of museum visitors. A web scraper tool was create to automatically retrieve weather from following website.
+Hypothetical assumption of this analysis is that weather condition could affect the number of museum visitors. A web scraper tool was created to automatically retrieve weather from following website.
 ```
 http://www.tianqihoubao.com/lishi/shanghai
 ```
@@ -72,7 +72,7 @@ Some columns were prepared for future implementation, thus, currently unused by 
 ## Data Modeling
 ### Model Creation
 
-In order to project future value of a dataset from a given set od features, many regression models can be used with different characteristics and properties. Following regression models were selected in this prototype due to their readability to work on prepared dataset without much modification.
+In order to project future value of a dataset from a given set of features, many regression models can be used with different characteristics and properties. Following regression models were selected in this prototype due to their readability to work on prepared dataset without much modification.
 
 * Linear Regression
 * Recursive Partitioning and Regression Trees
